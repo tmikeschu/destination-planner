@@ -1,24 +1,16 @@
-# README
+# Destination Planner
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple app with CRUD interface for destinations. To be used as a jumping point for various lessons at Turing.
 
-Things you may want to cover:
 
-* Ruby version
+## Setup
 
-* System dependencies
+To set up:
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+git clone git@github.com:turingschool-examples/destination-planner.git
+cd destination-planner
+bundle install
+bundle exec rake db:{create,migrate,seed}
+bundle exec rails server
+```
