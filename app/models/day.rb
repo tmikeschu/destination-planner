@@ -1,4 +1,9 @@
 class Day
+  attr_reader :date,
+              :high_temp,
+              :low_temp,
+              :conditions
+
   def initialize(day_attrs)
     @day_attrs = day_attrs
     @date = format_date
