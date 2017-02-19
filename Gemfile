@@ -14,6 +14,7 @@ gem 'sass-rails', '>= 3.2'
 
 group :development, :test do
   gem 'byebug', platform: :mri
+  gem 'rspec-rails', '~> 3.5'
 end
 
 group :development do
