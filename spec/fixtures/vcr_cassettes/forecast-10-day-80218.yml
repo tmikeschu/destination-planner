@@ -25,27 +25,27 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Last-Modified:
-      - Sun, 19 Feb 2017 20:18:10 GMT
+      - Sun, 19 Feb 2017 21:13:58 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       X-Creationtime:
-      - '0.027'
+      - '0.028'
       Vary:
       - Accept-Encoding
       Expires:
-      - Sun, 19 Feb 2017 20:18:10 GMT
+      - Sun, 19 Feb 2017 21:13:58 GMT
       Cache-Control:
       - max-age=0, no-cache
       Pragma:
       - no-cache
       Date:
-      - Sun, 19 Feb 2017 20:18:10 GMT
+      - Sun, 19 Feb 2017 21:13:58 GMT
       Content-Length:
-      - '18026'
+      - '18139'
       Connection:
       - keep-alive
       Set-Cookie:
-      - DT=1487535490:31107:ip-10-226-237-178; path=/; expires=Fri, 01-Jan-2020 00:00:00
+      - DT=1487538838:99206:ip-10-226-237-178; path=/; expires=Fri, 01-Jan-2020 00:00:00
         GMT; domain=.wunderground.com
       - Prefs=FAVS:1|WXSN:1|PWSOBS:1|WPHO:1|PHOT:1|RADC:0|RADALL:0|HIST0:NULL|GIFT:1|PHOTOTHUMBS:50|EXPFCT:1|;
         path=/; expires=Fri, 01-Jan-2020 00:00:00 GMT; domain=.wunderground.com
@@ -53,104 +53,108 @@ http_interactions:
       encoding: UTF-8
       string: "\n{\n  \"response\": {\n  \"version\":\"0.1\",\n  \"termsofService\":\"http://www.wunderground.com/weather/api/d/terms.html\",\n
         \ \"features\": {\n  \"forecast10day\": 1\n  }\n\t}\n\t\t,\n\t\"forecast\":{\n\t\t\"txt_forecast\":
-        {\n\t\t\"date\":\"11:56 AM MST\",\n\t\t\"forecastday\": [\n\t\t{\n\t\t\"period\":0,\n\t\t\"icon\":\"partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/partlycloudy.gif\",\n\t\t\"title\":\"Sunday\",\n\t\t\"fcttext\":\"Sunshine
+        {\n\t\t\"date\":\"1:26 PM MST\",\n\t\t\"forecastday\": [\n\t\t{\n\t\t\"period\":0,\n\t\t\"icon\":\"partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/partlycloudy.gif\",\n\t\t\"title\":\"Sunday\",\n\t\t\"fcttext\":\"Sunshine
         and clouds mixed. High 63F. Winds SSW at 10 to 20 mph.\",\n\t\t\"fcttext_metric\":\"Sun
         and clouds mixed. High 17C. Winds SSW at 15 to 30 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":1,\n\t\t\"icon\":\"nt_partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif\",\n\t\t\"title\":\"Sunday
-        Night\",\n\t\t\"fcttext\":\"Partly cloudy skies. Low 37F. Winds WSW at 10
-        to 15 mph.\",\n\t\t\"fcttext_metric\":\"Evening clouds will give way to clearing
-        overnight. Low 3C. Winds WSW at 15 to 25 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":2,\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"title\":\"Monday\",\n\t\t\"fcttext\":\"Sunny.
-        High 66F. Winds WSW at 5 to 10 mph.\",\n\t\t\"fcttext_metric\":\"Sunny skies.
-        High 19C. Winds WSW at 10 to 15 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":3,\n\t\t\"icon\":\"nt_clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_clear.gif\",\n\t\t\"title\":\"Monday
+        Night\",\n\t\t\"fcttext\":\"Cloudy skies this evening will become partly cloudy
+        after midnight. Low 39F. Winds WSW at 10 to 15 mph.\",\n\t\t\"fcttext_metric\":\"Cloudy
+        skies early, then partly cloudy after midnight. Low 4C. Winds WSW at 10 to
+        15 km/h.\",\n\t\t\"pop\":\"10\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":2,\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"title\":\"Monday\",\n\t\t\"fcttext\":\"Sunny
+        skies. High around 65F. Winds WSW at 5 to 10 mph.\",\n\t\t\"fcttext_metric\":\"Sunny.
+        High 18C. Winds WSW at 10 to 15 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":3,\n\t\t\"icon\":\"nt_clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_clear.gif\",\n\t\t\"title\":\"Monday
         Night\",\n\t\t\"fcttext\":\"Clear skies. Low 42F. Winds SSW at 5 to 10 mph.\",\n\t\t\"fcttext_metric\":\"Clear
-        skies. Low around 5C. Winds SSW at 10 to 15 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":4,\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"title\":\"Tuesday\",\n\t\t\"fcttext\":\"A
-        mainly sunny sky. High 74F. Winds WSW at 10 to 15 mph.\",\n\t\t\"fcttext_metric\":\"A
-        mainly sunny sky. High 24C. Winds WSW at 15 to 25 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":5,\n\t\t\"icon\":\"nt_clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_clear.gif\",\n\t\t\"title\":\"Tuesday
-        Night\",\n\t\t\"fcttext\":\"Clear skies. Low 47F. Winds SW at 10 to 20 mph.\",\n\t\t\"fcttext_metric\":\"Clear
-        skies. Low 8C. Winds SW at 15 to 30 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":6,\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"title\":\"Wednesday\",\n\t\t\"fcttext\":\"Mainly
+        skies. Low 6C. Winds S at 10 to 15 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":4,\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"title\":\"Tuesday\",\n\t\t\"fcttext\":\"Mainly
+        sunny. High 73F. Winds WSW at 10 to 20 mph.\",\n\t\t\"fcttext_metric\":\"A
+        mainly sunny sky. High 23C. Winds WSW at 15 to 30 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":5,\n\t\t\"icon\":\"nt_clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_clear.gif\",\n\t\t\"title\":\"Tuesday
+        Night\",\n\t\t\"fcttext\":\"Clear. Low 48F. Winds SW at 10 to 20 mph.\",\n\t\t\"fcttext_metric\":\"Clear
+        skies. Low 9C. Winds SW at 15 to 30 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":6,\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"title\":\"Wednesday\",\n\t\t\"fcttext\":\"Mainly
         sunny. High 68F. Winds WSW at 15 to 25 mph.\",\n\t\t\"fcttext_metric\":\"Sunny
-        skies. High near 20C. Winds WSW at 25 to 40 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":7,\n\t\t\"icon\":\"nt_clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_clear.gif\",\n\t\t\"title\":\"Wednesday
-        Night\",\n\t\t\"fcttext\":\"Clear skies. Low around 35F. Winds NNW at 10 to
-        15 mph.\",\n\t\t\"fcttext_metric\":\"Clear. Low 2C. Winds NNW at 10 to 15
-        km/h.\",\n\t\t\"pop\":\"10\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":8,\n\t\t\"icon\":\"rain\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/rain.gif\",\n\t\t\"title\":\"Thursday\",\n\t\t\"fcttext\":\"Partly
-        cloudy skies during the morning hours will give way to cloudy skies and rain
-        in the afternoon. High 47F. Winds N at 10 to 20 mph. Chance of rain 70%.\",\n\t\t\"fcttext_metric\":\"Partly
-        cloudy skies during the morning hours will give way to cloudy skies and rain
-        in the afternoon. High 8C. Winds N at 15 to 30 km/h. Chance of rain 70%.\",\n\t\t\"pop\":\"70\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":9,\n\t\t\"icon\":\"nt_snow\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_snow.gif\",\n\t\t\"title\":\"Thursday
-        Night\",\n\t\t\"fcttext\":\"Snow in the evening will give way to partly cloudy
-        conditions overnight. Low around 25F. Winds N at 10 to 15 mph. Chance of snow
-        80%. Snowfall around one inch.\",\n\t\t\"fcttext_metric\":\"Snow in the evening
-        will give way to mostly cloudy conditions overnight. Low -4C. Winds N at 15
-        to 25 km/h. Chance of snow 80%. Snowfall of 2-3cm.\",\n\t\t\"pop\":\"80\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":10,\n\t\t\"icon\":\"partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/partlycloudy.gif\",\n\t\t\"title\":\"Friday\",\n\t\t\"fcttext\":\"Partly
-        cloudy skies. High around 40F. Winds ENE at 10 to 15 mph.\",\n\t\t\"fcttext_metric\":\"Partly
-        cloudy skies. High near 5C. Winds ENE at 15 to 25 km/h.\",\n\t\t\"pop\":\"10\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":11,\n\t\t\"icon\":\"nt_partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif\",\n\t\t\"title\":\"Friday
-        Night\",\n\t\t\"fcttext\":\"Partly cloudy. Low 22F. Winds SSE at 5 to 10 mph.\",\n\t\t\"fcttext_metric\":\"A
-        few clouds. Low -6C. Winds SE at 10 to 15 km/h.\",\n\t\t\"pop\":\"20\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":12,\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"title\":\"Saturday\",\n\t\t\"fcttext\":\"Generally
-        sunny despite a few afternoon clouds. High 46F. SSE winds shifting to ENE
-        at 10 to 15 mph.\",\n\t\t\"fcttext_metric\":\"Except for a few afternoon clouds,
-        mainly sunny. High 8C. Winds ESE at 15 to 25 km/h.\",\n\t\t\"pop\":\"10\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":13,\n\t\t\"icon\":\"nt_partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif\",\n\t\t\"title\":\"Saturday
-        Night\",\n\t\t\"fcttext\":\"A few clouds. Low 23F. Winds S at 5 to 10 mph.\",\n\t\t\"fcttext_metric\":\"Partly
-        cloudy. Low near -5C. Winds S at 10 to 15 km/h.\",\n\t\t\"pop\":\"10\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":14,\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"title\":\"Sunday\",\n\t\t\"fcttext\":\"Generally
-        sunny. High 49F. Winds ESE at 5 to 10 mph.\",\n\t\t\"fcttext_metric\":\"Plentiful
-        sunshine. High around 10C. Winds ESE at 10 to 15 km/h.\",\n\t\t\"pop\":\"20\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":15,\n\t\t\"icon\":\"nt_partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif\",\n\t\t\"title\":\"Sunday
-        Night\",\n\t\t\"fcttext\":\"A few clouds. Low 26F. Winds W at 5 to 10 mph.\",\n\t\t\"fcttext_metric\":\"A
-        few clouds. Low -4C. Winds W at 10 to 15 km/h.\",\n\t\t\"pop\":\"20\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":16,\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"title\":\"Monday\",\n\t\t\"fcttext\":\"Mostly
-        sunny skies. High 47F. Winds NW at 5 to 10 mph.\",\n\t\t\"fcttext_metric\":\"Mostly
-        sunny skies. High 8C. Winds NNW at 10 to 15 km/h.\",\n\t\t\"pop\":\"20\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":17,\n\t\t\"icon\":\"nt_chancesnow\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_chancesnow.gif\",\n\t\t\"title\":\"Monday
-        Night\",\n\t\t\"fcttext\":\"Snow showers before midnight. Becoming clear later.
-        Low around 25F. Winds W at 5 to 10 mph. Chance of snow 40%.\",\n\t\t\"fcttext_metric\":\"Scattered
-        snow flurries and snow showers possible before midnight. Becoming mostly clear
-        later. Low -4C. Winds W at 10 to 15 km/h. Chance of snow 40%.\",\n\t\t\"pop\":\"40\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":18,\n\t\t\"icon\":\"snow\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/snow.gif\",\n\t\t\"title\":\"Tuesday\",\n\t\t\"fcttext\":\"Partly
-        cloudy in the morning then becoming cloudy with a mix of light rain and snow
-        later in the day. High near 45F. Winds NNE at 5 to 10 mph. Chance of rain
-        40%.\",\n\t\t\"fcttext_metric\":\"Partly cloudy in the morning then becoming
-        cloudy with a mix of light rain and snow later in the day. High 7C. Winds
-        NNE at 10 to 15 km/h. Chance of rain 40%.\",\n\t\t\"pop\":\"40\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":19,\n\t\t\"icon\":\"nt_snow\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_snow.gif\",\n\t\t\"title\":\"Tuesday
-        Night\",\n\t\t\"fcttext\":\"Intermittent snow showers, especially early. Low
-        24F. Winds S at 5 to 10 mph. Chance of snow 40%. Snow accumulations less than
-        one inch.\",\n\t\t\"fcttext_metric\":\"Snow showers early becoming more scattered
-        later. Low -4C. Winds S at 10 to 15 km/h. Chance of snow 40%. Snow accumulations
-        less than 2cm.\",\n\t\t\"pop\":\"40\"\n\t\t}\n\t\t]\n\t\t},\n\t\t\"simpleforecast\":
+        skies. High around 20C. Winds WSW at 25 to 40 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":7,\n\t\t\"icon\":\"nt_clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_clear.gif\",\n\t\t\"title\":\"Wednesday
+        Night\",\n\t\t\"fcttext\":\"Clear. Low 34F. Winds N at 10 to 15 mph.\",\n\t\t\"fcttext_metric\":\"Clear
+        skies. Low 1C. Winds N at 15 to 25 km/h.\",\n\t\t\"pop\":\"10\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":8,\n\t\t\"icon\":\"snow\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/snow.gif\",\n\t\t\"title\":\"Thursday\",\n\t\t\"fcttext\":\"Partly
+        cloudy in the morning then becoming cloudy with a mix of rain and snow later
+        in the day. High 46F. Winds N at 10 to 20 mph. Chance of rain 80%.\",\n\t\t\"fcttext_metric\":\"Mostly
+        cloudy early with periods of light rain and snow developing later in the day.
+        High 8C. Winds N at 15 to 30 km/h. Chance of rain 80%.\",\n\t\t\"pop\":\"80\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":9,\n\t\t\"icon\":\"nt_chancesnow\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_chancesnow.gif\",\n\t\t\"title\":\"Thursday
+        Night\",\n\t\t\"fcttext\":\"Cloudy with snow showers mainly during the evening.
+        Low 26F. Winds N at 10 to 15 mph. Chance of snow 80%. Snowfall around one
+        inch.\",\n\t\t\"fcttext_metric\":\"Cloudy with snow showers mainly during
+        the evening. Low -3C. Winds N at 15 to 25 km/h. Chance of snow 80%. Snowfall
+        of 2-3cm.\",\n\t\t\"pop\":\"80\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":10,\n\t\t\"icon\":\"mostlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/mostlycloudy.gif\",\n\t\t\"title\":\"Friday\",\n\t\t\"fcttext\":\"Mainly
+        cloudy. High 39F. Winds NE at 10 to 15 mph.\",\n\t\t\"fcttext_metric\":\"Mainly
+        cloudy. High 4C. Winds NE at 15 to 25 km/h.\",\n\t\t\"pop\":\"20\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":11,\n\t\t\"icon\":\"nt_partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif\",\n\t\t\"title\":\"Friday
+        Night\",\n\t\t\"fcttext\":\"Partly cloudy skies. Low near 20F. Winds SSE at
+        5 to 10 mph.\",\n\t\t\"fcttext_metric\":\"Some clouds early will give way
+        to generally clear conditions overnight. Low -6C. Winds SSE at 10 to 15 km/h.\",\n\t\t\"pop\":\"10\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":12,\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"title\":\"Saturday\",\n\t\t\"fcttext\":\"Except
+        for a few afternoon clouds, mainly sunny. High around 45F. SSE winds shifting
+        to NE at 10 to 15 mph.\",\n\t\t\"fcttext_metric\":\"Sunshine and some clouds.
+        High 7C. SE winds shifting to NE at 15 to 25 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":13,\n\t\t\"icon\":\"nt_partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif\",\n\t\t\"title\":\"Saturday
+        Night\",\n\t\t\"fcttext\":\"Partly cloudy. Low 22F. Winds SE at 5 to 10 mph.\",\n\t\t\"fcttext_metric\":\"A
+        few clouds. Low around -5C. Winds SE at 10 to 15 km/h.\",\n\t\t\"pop\":\"10\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":14,\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"title\":\"Sunday\",\n\t\t\"fcttext\":\"Mostly
+        sunny skies. High 48F. Winds E at 5 to 10 mph.\",\n\t\t\"fcttext_metric\":\"Sunshine.
+        High 9C. Winds ESE at 10 to 15 km/h.\",\n\t\t\"pop\":\"20\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":15,\n\t\t\"icon\":\"nt_partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif\",\n\t\t\"title\":\"Sunday
+        Night\",\n\t\t\"fcttext\":\"Partly cloudy skies. Low 24F. Winds SW at 5 to
+        10 mph.\",\n\t\t\"fcttext_metric\":\"A few clouds. Low -4C. Winds light and
+        variable.\",\n\t\t\"pop\":\"20\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":16,\n\t\t\"icon\":\"chancerain\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/chancerain.gif\",\n\t\t\"title\":\"Monday\",\n\t\t\"fcttext\":\"Mostly
+        sunny early followed by increasing clouds and a few showers later in the day.
+        High 47F. Winds N at 5 to 10 mph. Chance of rain 30%.\",\n\t\t\"fcttext_metric\":\"Sunshine
+        in the morning followed by cloudy skies during the afternoon. High 8C. Winds
+        N at 10 to 15 km/h.\",\n\t\t\"pop\":\"30\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":17,\n\t\t\"icon\":\"nt_snow\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_snow.gif\",\n\t\t\"title\":\"Monday
+        Night\",\n\t\t\"fcttext\":\"Variably cloudy with snow showers. Low around
+        25F. Winds S at 5 to 10 mph. Chance of snow 50%. Snowfall around one inch.\",\n\t\t\"fcttext_metric\":\"Occasional
+        snow showers. Low -4C. Winds SSE at 10 to 15 km/h. Chance of snow 50%. Snowfall
+        of 2-3cm.\",\n\t\t\"pop\":\"50\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":18,\n\t\t\"icon\":\"snow\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/snow.gif\",\n\t\t\"title\":\"Tuesday\",\n\t\t\"fcttext\":\"Snow
+        showers early will give way to a mixture of rain and snow showers in the afternoon.
+        High 43F. WNW winds shifting to NE at 10 to 15 mph. Chance of rain 50%. Snow
+        accumulations less than one inch.\",\n\t\t\"fcttext_metric\":\"Variable clouds
+        with snow showers that will mix with rain showers later. High 6C. SSW winds
+        shifting to NE at 15 to 25 km/h. Chance of rain 50%. Snow accumulations less
+        than 2cm.\",\n\t\t\"pop\":\"50\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":19,\n\t\t\"icon\":\"nt_chancesnow\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_chancesnow.gif\",\n\t\t\"title\":\"Tuesday
+        Night\",\n\t\t\"fcttext\":\"Snow showers early. Breaks in the overcast later.
+        Low 22F. Winds SSE at 5 to 10 mph. Chance of snow 40%.\",\n\t\t\"fcttext_metric\":\"Snow
+        showers early. Breaks in the overcast later. Low near -5C. Winds SSE at 10
+        to 15 km/h. Chance of snow 40%.\",\n\t\t\"pop\":\"40\"\n\t\t}\n\t\t]\n\t\t},\n\t\t\"simpleforecast\":
         {\n\t\t\"forecastday\": [\n\t\t{\"date\":{\n\t\"epoch\":\"1487556000\",\n\t\"pretty\":\"7:00
         PM MST on February 19, 2017\",\n\t\"day\":19,\n\t\"month\":2,\n\t\"year\":2017,\n\t\"yday\":49,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"0\",\n\t\"monthname\":\"February\",\n\t\"monthname_short\":\"Feb\",\n\t\"weekday_short\":\"Sun\",\n\t\"weekday\":\"Sunday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MST\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":1,\n\t\t\"high\":
         {\n\t\t\"fahrenheit\":\"63\",\n\t\t\"celsius\":\"17\"\n\t\t},\n\t\t\"low\":
-        {\n\t\t\"fahrenheit\":\"37\",\n\t\t\"celsius\":\"3\"\n\t\t},\n\t\t\"conditions\":\"Partly
+        {\n\t\t\"fahrenheit\":\"39\",\n\t\t\"celsius\":\"4\"\n\t\t},\n\t\t\"conditions\":\"Partly
         Cloudy\",\n\t\t\"icon\":\"partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/partlycloudy.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":0,\n\t\t\"qpf_allday\":
         {\n\t\t\"in\": 0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
         0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.00,\n\t\t\"mm\":
         0\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_day\":
         {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
         0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 20,\n\t\t\"kph\":
-        32,\n\t\t\"dir\": \"SSW\",\n\t\t\"degrees\": 197\n\t\t},\n\t\t\"avewind\":
-        {\n\t\t\"mph\": 14,\n\t\t\"kph\": 23,\n\t\t\"dir\": \"SSW\",\n\t\t\"degrees\":
-        197\n\t\t},\n\t\t\"avehumidity\": 23,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\":
+        32,\n\t\t\"dir\": \"SSW\",\n\t\t\"degrees\": 199\n\t\t},\n\t\t\"avewind\":
+        {\n\t\t\"mph\": 15,\n\t\t\"kph\": 24,\n\t\t\"dir\": \"SSW\",\n\t\t\"degrees\":
+        199\n\t\t},\n\t\t\"avehumidity\": 24,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\":
         0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1487642400\",\n\t\"pretty\":\"7:00
         PM MST on February 20, 2017\",\n\t\"day\":20,\n\t\"month\":2,\n\t\"year\":2017,\n\t\"yday\":50,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"0\",\n\t\"monthname\":\"February\",\n\t\"monthname_short\":\"Feb\",\n\t\"weekday_short\":\"Mon\",\n\t\"weekday\":\"Monday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MST\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":2,\n\t\t\"high\":
-        {\n\t\t\"fahrenheit\":\"66\",\n\t\t\"celsius\":\"19\"\n\t\t},\n\t\t\"low\":
+        {\n\t\t\"fahrenheit\":\"65\",\n\t\t\"celsius\":\"18\"\n\t\t},\n\t\t\"low\":
         {\n\t\t\"fahrenheit\":\"42\",\n\t\t\"celsius\":\"6\"\n\t\t},\n\t\t\"conditions\":\"Clear\",\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":0,\n\t\t\"qpf_allday\":
         {\n\t\t\"in\": 0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
         0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.00,\n\t\t\"mm\":
         0\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_day\":
         {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
         0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 10,\n\t\t\"kph\":
-        16,\n\t\t\"dir\": \"WSW\",\n\t\t\"degrees\": 239\n\t\t},\n\t\t\"avewind\":
+        16,\n\t\t\"dir\": \"WSW\",\n\t\t\"degrees\": 241\n\t\t},\n\t\t\"avewind\":
         {\n\t\t\"mph\": 9,\n\t\t\"kph\": 14,\n\t\t\"dir\": \"WSW\",\n\t\t\"degrees\":
-        239\n\t\t},\n\t\t\"avehumidity\": 20,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\":
+        241\n\t\t},\n\t\t\"avehumidity\": 19,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\":
         0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1487728800\",\n\t\"pretty\":\"7:00
         PM MST on February 21, 2017\",\n\t\"day\":21,\n\t\"month\":2,\n\t\"year\":2017,\n\t\"yday\":51,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"0\",\n\t\"monthname\":\"February\",\n\t\"monthname_short\":\"Feb\",\n\t\"weekday_short\":\"Tue\",\n\t\"weekday\":\"Tuesday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MST\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":3,\n\t\t\"high\":
-        {\n\t\t\"fahrenheit\":\"74\",\n\t\t\"celsius\":\"23\"\n\t\t},\n\t\t\"low\":
-        {\n\t\t\"fahrenheit\":\"47\",\n\t\t\"celsius\":\"8\"\n\t\t},\n\t\t\"conditions\":\"Clear\",\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":0,\n\t\t\"qpf_allday\":
+        {\n\t\t\"fahrenheit\":\"73\",\n\t\t\"celsius\":\"23\"\n\t\t},\n\t\t\"low\":
+        {\n\t\t\"fahrenheit\":\"48\",\n\t\t\"celsius\":\"9\"\n\t\t},\n\t\t\"conditions\":\"Clear\",\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":0,\n\t\t\"qpf_allday\":
         {\n\t\t\"in\": 0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
         0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.00,\n\t\t\"mm\":
         0\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_day\":
         {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
-        0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 15,\n\t\t\"kph\":
-        24,\n\t\t\"dir\": \"WSW\",\n\t\t\"degrees\": 241\n\t\t},\n\t\t\"avewind\":
-        {\n\t\t\"mph\": 12,\n\t\t\"kph\": 19,\n\t\t\"dir\": \"WSW\",\n\t\t\"degrees\":
-        241\n\t\t},\n\t\t\"avehumidity\": 19,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\":
+        0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 20,\n\t\t\"kph\":
+        32,\n\t\t\"dir\": \"WSW\",\n\t\t\"degrees\": 239\n\t\t},\n\t\t\"avewind\":
+        {\n\t\t\"mph\": 13,\n\t\t\"kph\": 21,\n\t\t\"dir\": \"WSW\",\n\t\t\"degrees\":
+        239\n\t\t},\n\t\t\"avehumidity\": 19,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\":
         0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1487815200\",\n\t\"pretty\":\"7:00
         PM MST on February 22, 2017\",\n\t\"day\":22,\n\t\"month\":2,\n\t\"year\":2017,\n\t\"yday\":52,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"0\",\n\t\"monthname\":\"February\",\n\t\"monthname_short\":\"Feb\",\n\t\"weekday_short\":\"Wed\",\n\t\"weekday\":\"Wednesday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MST\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":4,\n\t\t\"high\":
         {\n\t\t\"fahrenheit\":\"68\",\n\t\t\"celsius\":\"20\"\n\t\t},\n\t\t\"low\":
-        {\n\t\t\"fahrenheit\":\"35\",\n\t\t\"celsius\":\"2\"\n\t\t},\n\t\t\"conditions\":\"Clear\",\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":0,\n\t\t\"qpf_allday\":
+        {\n\t\t\"fahrenheit\":\"34\",\n\t\t\"celsius\":\"1\"\n\t\t},\n\t\t\"conditions\":\"Clear\",\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":0,\n\t\t\"qpf_allday\":
         {\n\t\t\"in\": 0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
         0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.00,\n\t\t\"mm\":
         0\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_day\":
@@ -161,77 +165,304 @@ http_interactions:
         239\n\t\t},\n\t\t\"avehumidity\": 19,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\":
         0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1487901600\",\n\t\"pretty\":\"7:00
         PM MST on February 23, 2017\",\n\t\"day\":23,\n\t\"month\":2,\n\t\"year\":2017,\n\t\"yday\":53,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"0\",\n\t\"monthname\":\"February\",\n\t\"monthname_short\":\"Feb\",\n\t\"weekday_short\":\"Thu\",\n\t\"weekday\":\"Thursday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MST\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":5,\n\t\t\"high\":
-        {\n\t\t\"fahrenheit\":\"47\",\n\t\t\"celsius\":\"8\"\n\t\t},\n\t\t\"low\":
-        {\n\t\t\"fahrenheit\":\"25\",\n\t\t\"celsius\":\"-4\"\n\t\t},\n\t\t\"conditions\":\"Rain\",\n\t\t\"icon\":\"rain\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/rain.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":70,\n\t\t\"qpf_allday\":
-        {\n\t\t\"in\": 0.18,\n\t\t\"mm\": 5\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
-        0.06,\n\t\t\"mm\": 2\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.11,\n\t\t\"mm\":
-        3\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.9,\n\t\t\"cm\": 2.3\n\t\t},\n\t\t\"snow_day\":
-        {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
-        0.9,\n\t\t\"cm\": 2.3\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 20,\n\t\t\"kph\":
-        32,\n\t\t\"dir\": \"N\",\n\t\t\"degrees\": 4\n\t\t},\n\t\t\"avewind\": {\n\t\t\"mph\":
-        13,\n\t\t\"kph\": 21,\n\t\t\"dir\": \"N\",\n\t\t\"degrees\": 4\n\t\t},\n\t\t\"avehumidity\":
-        43,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\": 0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1487988000\",\n\t\"pretty\":\"7:00
-        PM MST on February 24, 2017\",\n\t\"day\":24,\n\t\"month\":2,\n\t\"year\":2017,\n\t\"yday\":54,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"0\",\n\t\"monthname\":\"February\",\n\t\"monthname_short\":\"Feb\",\n\t\"weekday_short\":\"Fri\",\n\t\"weekday\":\"Friday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MST\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":6,\n\t\t\"high\":
-        {\n\t\t\"fahrenheit\":\"40\",\n\t\t\"celsius\":\"4\"\n\t\t},\n\t\t\"low\":
-        {\n\t\t\"fahrenheit\":\"22\",\n\t\t\"celsius\":\"-6\"\n\t\t},\n\t\t\"conditions\":\"Partly
-        Cloudy\",\n\t\t\"icon\":\"partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/partlycloudy.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":10,\n\t\t\"qpf_allday\":
-        {\n\t\t\"in\": 0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
-        0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.00,\n\t\t\"mm\":
-        0\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_day\":
-        {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
-        0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 15,\n\t\t\"kph\":
-        24,\n\t\t\"dir\": \"ENE\",\n\t\t\"degrees\": 66\n\t\t},\n\t\t\"avewind\":
-        {\n\t\t\"mph\": 11,\n\t\t\"kph\": 18,\n\t\t\"dir\": \"ENE\",\n\t\t\"degrees\":
-        66\n\t\t},\n\t\t\"avehumidity\": 42,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\":
-        0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1488074400\",\n\t\"pretty\":\"7:00
-        PM MST on February 25, 2017\",\n\t\"day\":25,\n\t\"month\":2,\n\t\"year\":2017,\n\t\"yday\":55,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"0\",\n\t\"monthname\":\"February\",\n\t\"monthname_short\":\"Feb\",\n\t\"weekday_short\":\"Sat\",\n\t\"weekday\":\"Saturday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MST\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":7,\n\t\t\"high\":
         {\n\t\t\"fahrenheit\":\"46\",\n\t\t\"celsius\":\"8\"\n\t\t},\n\t\t\"low\":
-        {\n\t\t\"fahrenheit\":\"23\",\n\t\t\"celsius\":\"-5\"\n\t\t},\n\t\t\"conditions\":\"Clear\",\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":10,\n\t\t\"qpf_allday\":
+        {\n\t\t\"fahrenheit\":\"26\",\n\t\t\"celsius\":\"-3\"\n\t\t},\n\t\t\"conditions\":\"Snow\",\n\t\t\"icon\":\"snow\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/snow.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":80,\n\t\t\"qpf_allday\":
+        {\n\t\t\"in\": 0.21,\n\t\t\"mm\": 5\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
+        0.11,\n\t\t\"mm\": 3\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.09,\n\t\t\"mm\":
+        2\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 1.2,\n\t\t\"cm\": 3.0\n\t\t},\n\t\t\"snow_day\":
+        {\n\t\t\"in\": 0.3,\n\t\t\"cm\": 0.8\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
+        0.9,\n\t\t\"cm\": 2.3\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 20,\n\t\t\"kph\":
+        32,\n\t\t\"dir\": \"N\",\n\t\t\"degrees\": 356\n\t\t},\n\t\t\"avewind\": {\n\t\t\"mph\":
+        13,\n\t\t\"kph\": 21,\n\t\t\"dir\": \"N\",\n\t\t\"degrees\": 356\n\t\t},\n\t\t\"avehumidity\":
+        48,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\": 0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1487988000\",\n\t\"pretty\":\"7:00
+        PM MST on February 24, 2017\",\n\t\"day\":24,\n\t\"month\":2,\n\t\"year\":2017,\n\t\"yday\":54,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"0\",\n\t\"monthname\":\"February\",\n\t\"monthname_short\":\"Feb\",\n\t\"weekday_short\":\"Fri\",\n\t\"weekday\":\"Friday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MST\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":6,\n\t\t\"high\":
+        {\n\t\t\"fahrenheit\":\"39\",\n\t\t\"celsius\":\"4\"\n\t\t},\n\t\t\"low\":
+        {\n\t\t\"fahrenheit\":\"20\",\n\t\t\"celsius\":\"-7\"\n\t\t},\n\t\t\"conditions\":\"Mostly
+        Cloudy\",\n\t\t\"icon\":\"mostlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/mostlycloudy.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":20,\n\t\t\"qpf_allday\":
         {\n\t\t\"in\": 0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
         0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.00,\n\t\t\"mm\":
         0\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_day\":
         {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
         0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 15,\n\t\t\"kph\":
-        24,\n\t\t\"dir\": \"ESE\",\n\t\t\"degrees\": 105\n\t\t},\n\t\t\"avewind\":
-        {\n\t\t\"mph\": 11,\n\t\t\"kph\": 18,\n\t\t\"dir\": \"ESE\",\n\t\t\"degrees\":
-        105\n\t\t},\n\t\t\"avehumidity\": 33,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\":
-        0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1488160800\",\n\t\"pretty\":\"7:00
+        24,\n\t\t\"dir\": \"NE\",\n\t\t\"degrees\": 50\n\t\t},\n\t\t\"avewind\": {\n\t\t\"mph\":
+        10,\n\t\t\"kph\": 16,\n\t\t\"dir\": \"NE\",\n\t\t\"degrees\": 50\n\t\t},\n\t\t\"avehumidity\":
+        42,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\": 0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1488074400\",\n\t\"pretty\":\"7:00
+        PM MST on February 25, 2017\",\n\t\"day\":25,\n\t\"month\":2,\n\t\"year\":2017,\n\t\"yday\":55,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"0\",\n\t\"monthname\":\"February\",\n\t\"monthname_short\":\"Feb\",\n\t\"weekday_short\":\"Sat\",\n\t\"weekday\":\"Saturday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MST\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":7,\n\t\t\"high\":
+        {\n\t\t\"fahrenheit\":\"45\",\n\t\t\"celsius\":\"7\"\n\t\t},\n\t\t\"low\":
+        {\n\t\t\"fahrenheit\":\"22\",\n\t\t\"celsius\":\"-6\"\n\t\t},\n\t\t\"conditions\":\"Clear\",\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":0,\n\t\t\"qpf_allday\":
+        {\n\t\t\"in\": 0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
+        0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.00,\n\t\t\"mm\":
+        0\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_day\":
+        {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
+        0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 15,\n\t\t\"kph\":
+        24,\n\t\t\"dir\": \"E\",\n\t\t\"degrees\": 93\n\t\t},\n\t\t\"avewind\": {\n\t\t\"mph\":
+        10,\n\t\t\"kph\": 16,\n\t\t\"dir\": \"E\",\n\t\t\"degrees\": 93\n\t\t},\n\t\t\"avehumidity\":
+        32,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\": 0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1488160800\",\n\t\"pretty\":\"7:00
         PM MST on February 26, 2017\",\n\t\"day\":26,\n\t\"month\":2,\n\t\"year\":2017,\n\t\"yday\":56,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"0\",\n\t\"monthname\":\"February\",\n\t\"monthname_short\":\"Feb\",\n\t\"weekday_short\":\"Sun\",\n\t\"weekday\":\"Sunday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MST\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":8,\n\t\t\"high\":
-        {\n\t\t\"fahrenheit\":\"49\",\n\t\t\"celsius\":\"9\"\n\t\t},\n\t\t\"low\":
-        {\n\t\t\"fahrenheit\":\"26\",\n\t\t\"celsius\":\"-3\"\n\t\t},\n\t\t\"conditions\":\"Clear\",\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":20,\n\t\t\"qpf_allday\":
+        {\n\t\t\"fahrenheit\":\"48\",\n\t\t\"celsius\":\"9\"\n\t\t},\n\t\t\"low\":
+        {\n\t\t\"fahrenheit\":\"24\",\n\t\t\"celsius\":\"-4\"\n\t\t},\n\t\t\"conditions\":\"Clear\",\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":20,\n\t\t\"qpf_allday\":
         {\n\t\t\"in\": 0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
         0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.00,\n\t\t\"mm\":
         0\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_day\":
         {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
         0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 10,\n\t\t\"kph\":
-        16,\n\t\t\"dir\": \"ESE\",\n\t\t\"degrees\": 106\n\t\t},\n\t\t\"avewind\":
-        {\n\t\t\"mph\": 9,\n\t\t\"kph\": 14,\n\t\t\"dir\": \"ESE\",\n\t\t\"degrees\":
-        106\n\t\t},\n\t\t\"avehumidity\": 33,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\":
-        0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1488247200\",\n\t\"pretty\":\"7:00
+        16,\n\t\t\"dir\": \"E\",\n\t\t\"degrees\": 101\n\t\t},\n\t\t\"avewind\": {\n\t\t\"mph\":
+        9,\n\t\t\"kph\": 14,\n\t\t\"dir\": \"E\",\n\t\t\"degrees\": 101\n\t\t},\n\t\t\"avehumidity\":
+        32,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\": 0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1488247200\",\n\t\"pretty\":\"7:00
         PM MST on February 27, 2017\",\n\t\"day\":27,\n\t\"month\":2,\n\t\"year\":2017,\n\t\"yday\":57,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"0\",\n\t\"monthname\":\"February\",\n\t\"monthname_short\":\"Feb\",\n\t\"weekday_short\":\"Mon\",\n\t\"weekday\":\"Monday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MST\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":9,\n\t\t\"high\":
         {\n\t\t\"fahrenheit\":\"47\",\n\t\t\"celsius\":\"8\"\n\t\t},\n\t\t\"low\":
-        {\n\t\t\"fahrenheit\":\"25\",\n\t\t\"celsius\":\"-4\"\n\t\t},\n\t\t\"conditions\":\"Clear\",\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":20,\n\t\t\"qpf_allday\":
-        {\n\t\t\"in\": 0.02,\n\t\t\"mm\": 1\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
-        0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.02,\n\t\t\"mm\":
-        1\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.2,\n\t\t\"cm\": 0.5\n\t\t},\n\t\t\"snow_day\":
+        {\n\t\t\"fahrenheit\":\"25\",\n\t\t\"celsius\":\"-4\"\n\t\t},\n\t\t\"conditions\":\"Chance
+        of Rain\",\n\t\t\"icon\":\"chancerain\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/chancerain.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":30,\n\t\t\"qpf_allday\":
+        {\n\t\t\"in\": 0.14,\n\t\t\"mm\": 4\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
+        0.02,\n\t\t\"mm\": 1\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.12,\n\t\t\"mm\":
+        3\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 1.1,\n\t\t\"cm\": 2.8\n\t\t},\n\t\t\"snow_day\":
         {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
-        0.2,\n\t\t\"cm\": 0.5\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 10,\n\t\t\"kph\":
-        16,\n\t\t\"dir\": \"NW\",\n\t\t\"degrees\": 326\n\t\t},\n\t\t\"avewind\":
-        {\n\t\t\"mph\": 9,\n\t\t\"kph\": 14,\n\t\t\"dir\": \"NW\",\n\t\t\"degrees\":
-        326\n\t\t},\n\t\t\"avehumidity\": 42,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\":
-        0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1488333600\",\n\t\"pretty\":\"7:00
+        1.1,\n\t\t\"cm\": 2.8\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 10,\n\t\t\"kph\":
+        16,\n\t\t\"dir\": \"N\",\n\t\t\"degrees\": 359\n\t\t},\n\t\t\"avewind\": {\n\t\t\"mph\":
+        8,\n\t\t\"kph\": 13,\n\t\t\"dir\": \"N\",\n\t\t\"degrees\": 359\n\t\t},\n\t\t\"avehumidity\":
+        38,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\": 0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1488333600\",\n\t\"pretty\":\"7:00
         PM MST on February 28, 2017\",\n\t\"day\":28,\n\t\"month\":2,\n\t\"year\":2017,\n\t\"yday\":58,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"0\",\n\t\"monthname\":\"February\",\n\t\"monthname_short\":\"Feb\",\n\t\"weekday_short\":\"Tue\",\n\t\"weekday\":\"Tuesday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MST\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":10,\n\t\t\"high\":
-        {\n\t\t\"fahrenheit\":\"45\",\n\t\t\"celsius\":\"7\"\n\t\t},\n\t\t\"low\":
-        {\n\t\t\"fahrenheit\":\"24\",\n\t\t\"celsius\":\"-4\"\n\t\t},\n\t\t\"conditions\":\"Snow\",\n\t\t\"icon\":\"snow\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/snow.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":40,\n\t\t\"qpf_allday\":
-        {\n\t\t\"in\": 0.06,\n\t\t\"mm\": 2\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
-        0.02,\n\t\t\"mm\": 1\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.05,\n\t\t\"mm\":
-        1\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.5,\n\t\t\"cm\": 1.3\n\t\t},\n\t\t\"snow_day\":
-        {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
-        0.4,\n\t\t\"cm\": 1.0\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 10,\n\t\t\"kph\":
-        16,\n\t\t\"dir\": \"NNE\",\n\t\t\"degrees\": 18\n\t\t},\n\t\t\"avewind\":
-        {\n\t\t\"mph\": 9,\n\t\t\"kph\": 14,\n\t\t\"dir\": \"NNE\",\n\t\t\"degrees\":
-        18\n\t\t},\n\t\t\"avehumidity\": 42,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\":
+        {\n\t\t\"fahrenheit\":\"43\",\n\t\t\"celsius\":\"6\"\n\t\t},\n\t\t\"low\":
+        {\n\t\t\"fahrenheit\":\"22\",\n\t\t\"celsius\":\"-6\"\n\t\t},\n\t\t\"conditions\":\"Snow\",\n\t\t\"icon\":\"snow\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/snow.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":50,\n\t\t\"qpf_allday\":
+        {\n\t\t\"in\": 0.14,\n\t\t\"mm\": 4\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
+        0.13,\n\t\t\"mm\": 3\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.02,\n\t\t\"mm\":
+        1\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.9,\n\t\t\"cm\": 2.3\n\t\t},\n\t\t\"snow_day\":
+        {\n\t\t\"in\": 0.7,\n\t\t\"cm\": 1.8\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
+        0.2,\n\t\t\"cm\": 0.5\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 15,\n\t\t\"kph\":
+        24,\n\t\t\"dir\": \"NNE\",\n\t\t\"degrees\": 32\n\t\t},\n\t\t\"avewind\":
+        {\n\t\t\"mph\": 10,\n\t\t\"kph\": 16,\n\t\t\"dir\": \"NNE\",\n\t\t\"degrees\":
+        32\n\t\t},\n\t\t\"avehumidity\": 44,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\":
         0\n\t\t}\n\t\t]\n\t\t}\n\t}\n}\n"
     http_version: 
-  recorded_at: Sun, 19 Feb 2017 20:18:10 GMT
+  recorded_at: Sun, 19 Feb 2017 21:13:58 GMT
+- request:
+    method: get
+    uri: http://api.wunderground.com/api/227ecb1e776743ef/forecast10day/q/80218.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Last-Modified:
+      - Sun, 19 Feb 2017 21:13:58 GMT
+      Server:
+      - Apache/2.2.15 (CentOS)
+      X-Creationtime:
+      - '0.028'
+      Vary:
+      - Accept-Encoding
+      Expires:
+      - Sun, 19 Feb 2017 21:13:58 GMT
+      Cache-Control:
+      - max-age=0, no-cache
+      Pragma:
+      - no-cache
+      Date:
+      - Sun, 19 Feb 2017 21:13:58 GMT
+      Content-Length:
+      - '18139'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: "\n{\n  \"response\": {\n  \"version\":\"0.1\",\n  \"termsofService\":\"http://www.wunderground.com/weather/api/d/terms.html\",\n
+        \ \"features\": {\n  \"forecast10day\": 1\n  }\n\t}\n\t\t,\n\t\"forecast\":{\n\t\t\"txt_forecast\":
+        {\n\t\t\"date\":\"1:26 PM MST\",\n\t\t\"forecastday\": [\n\t\t{\n\t\t\"period\":0,\n\t\t\"icon\":\"partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/partlycloudy.gif\",\n\t\t\"title\":\"Sunday\",\n\t\t\"fcttext\":\"Sunshine
+        and clouds mixed. High 63F. Winds SSW at 10 to 20 mph.\",\n\t\t\"fcttext_metric\":\"Sun
+        and clouds mixed. High 17C. Winds SSW at 15 to 30 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":1,\n\t\t\"icon\":\"nt_partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif\",\n\t\t\"title\":\"Sunday
+        Night\",\n\t\t\"fcttext\":\"Cloudy skies this evening will become partly cloudy
+        after midnight. Low 39F. Winds WSW at 10 to 15 mph.\",\n\t\t\"fcttext_metric\":\"Cloudy
+        skies early, then partly cloudy after midnight. Low 4C. Winds WSW at 10 to
+        15 km/h.\",\n\t\t\"pop\":\"10\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":2,\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"title\":\"Monday\",\n\t\t\"fcttext\":\"Sunny
+        skies. High around 65F. Winds WSW at 5 to 10 mph.\",\n\t\t\"fcttext_metric\":\"Sunny.
+        High 18C. Winds WSW at 10 to 15 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":3,\n\t\t\"icon\":\"nt_clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_clear.gif\",\n\t\t\"title\":\"Monday
+        Night\",\n\t\t\"fcttext\":\"Clear skies. Low 42F. Winds SSW at 5 to 10 mph.\",\n\t\t\"fcttext_metric\":\"Clear
+        skies. Low 6C. Winds S at 10 to 15 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":4,\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"title\":\"Tuesday\",\n\t\t\"fcttext\":\"Mainly
+        sunny. High 73F. Winds WSW at 10 to 20 mph.\",\n\t\t\"fcttext_metric\":\"A
+        mainly sunny sky. High 23C. Winds WSW at 15 to 30 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":5,\n\t\t\"icon\":\"nt_clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_clear.gif\",\n\t\t\"title\":\"Tuesday
+        Night\",\n\t\t\"fcttext\":\"Clear. Low 48F. Winds SW at 10 to 20 mph.\",\n\t\t\"fcttext_metric\":\"Clear
+        skies. Low 9C. Winds SW at 15 to 30 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":6,\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"title\":\"Wednesday\",\n\t\t\"fcttext\":\"Mainly
+        sunny. High 68F. Winds WSW at 15 to 25 mph.\",\n\t\t\"fcttext_metric\":\"Sunny
+        skies. High around 20C. Winds WSW at 25 to 40 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":7,\n\t\t\"icon\":\"nt_clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_clear.gif\",\n\t\t\"title\":\"Wednesday
+        Night\",\n\t\t\"fcttext\":\"Clear. Low 34F. Winds N at 10 to 15 mph.\",\n\t\t\"fcttext_metric\":\"Clear
+        skies. Low 1C. Winds N at 15 to 25 km/h.\",\n\t\t\"pop\":\"10\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":8,\n\t\t\"icon\":\"snow\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/snow.gif\",\n\t\t\"title\":\"Thursday\",\n\t\t\"fcttext\":\"Partly
+        cloudy in the morning then becoming cloudy with a mix of rain and snow later
+        in the day. High 46F. Winds N at 10 to 20 mph. Chance of rain 80%.\",\n\t\t\"fcttext_metric\":\"Mostly
+        cloudy early with periods of light rain and snow developing later in the day.
+        High 8C. Winds N at 15 to 30 km/h. Chance of rain 80%.\",\n\t\t\"pop\":\"80\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":9,\n\t\t\"icon\":\"nt_chancesnow\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_chancesnow.gif\",\n\t\t\"title\":\"Thursday
+        Night\",\n\t\t\"fcttext\":\"Cloudy with snow showers mainly during the evening.
+        Low 26F. Winds N at 10 to 15 mph. Chance of snow 80%. Snowfall around one
+        inch.\",\n\t\t\"fcttext_metric\":\"Cloudy with snow showers mainly during
+        the evening. Low -3C. Winds N at 15 to 25 km/h. Chance of snow 80%. Snowfall
+        of 2-3cm.\",\n\t\t\"pop\":\"80\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":10,\n\t\t\"icon\":\"mostlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/mostlycloudy.gif\",\n\t\t\"title\":\"Friday\",\n\t\t\"fcttext\":\"Mainly
+        cloudy. High 39F. Winds NE at 10 to 15 mph.\",\n\t\t\"fcttext_metric\":\"Mainly
+        cloudy. High 4C. Winds NE at 15 to 25 km/h.\",\n\t\t\"pop\":\"20\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":11,\n\t\t\"icon\":\"nt_partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif\",\n\t\t\"title\":\"Friday
+        Night\",\n\t\t\"fcttext\":\"Partly cloudy skies. Low near 20F. Winds SSE at
+        5 to 10 mph.\",\n\t\t\"fcttext_metric\":\"Some clouds early will give way
+        to generally clear conditions overnight. Low -6C. Winds SSE at 10 to 15 km/h.\",\n\t\t\"pop\":\"10\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":12,\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"title\":\"Saturday\",\n\t\t\"fcttext\":\"Except
+        for a few afternoon clouds, mainly sunny. High around 45F. SSE winds shifting
+        to NE at 10 to 15 mph.\",\n\t\t\"fcttext_metric\":\"Sunshine and some clouds.
+        High 7C. SE winds shifting to NE at 15 to 25 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":13,\n\t\t\"icon\":\"nt_partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif\",\n\t\t\"title\":\"Saturday
+        Night\",\n\t\t\"fcttext\":\"Partly cloudy. Low 22F. Winds SE at 5 to 10 mph.\",\n\t\t\"fcttext_metric\":\"A
+        few clouds. Low around -5C. Winds SE at 10 to 15 km/h.\",\n\t\t\"pop\":\"10\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":14,\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"title\":\"Sunday\",\n\t\t\"fcttext\":\"Mostly
+        sunny skies. High 48F. Winds E at 5 to 10 mph.\",\n\t\t\"fcttext_metric\":\"Sunshine.
+        High 9C. Winds ESE at 10 to 15 km/h.\",\n\t\t\"pop\":\"20\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":15,\n\t\t\"icon\":\"nt_partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif\",\n\t\t\"title\":\"Sunday
+        Night\",\n\t\t\"fcttext\":\"Partly cloudy skies. Low 24F. Winds SW at 5 to
+        10 mph.\",\n\t\t\"fcttext_metric\":\"A few clouds. Low -4C. Winds light and
+        variable.\",\n\t\t\"pop\":\"20\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":16,\n\t\t\"icon\":\"chancerain\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/chancerain.gif\",\n\t\t\"title\":\"Monday\",\n\t\t\"fcttext\":\"Mostly
+        sunny early followed by increasing clouds and a few showers later in the day.
+        High 47F. Winds N at 5 to 10 mph. Chance of rain 30%.\",\n\t\t\"fcttext_metric\":\"Sunshine
+        in the morning followed by cloudy skies during the afternoon. High 8C. Winds
+        N at 10 to 15 km/h.\",\n\t\t\"pop\":\"30\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":17,\n\t\t\"icon\":\"nt_snow\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_snow.gif\",\n\t\t\"title\":\"Monday
+        Night\",\n\t\t\"fcttext\":\"Variably cloudy with snow showers. Low around
+        25F. Winds S at 5 to 10 mph. Chance of snow 50%. Snowfall around one inch.\",\n\t\t\"fcttext_metric\":\"Occasional
+        snow showers. Low -4C. Winds SSE at 10 to 15 km/h. Chance of snow 50%. Snowfall
+        of 2-3cm.\",\n\t\t\"pop\":\"50\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":18,\n\t\t\"icon\":\"snow\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/snow.gif\",\n\t\t\"title\":\"Tuesday\",\n\t\t\"fcttext\":\"Snow
+        showers early will give way to a mixture of rain and snow showers in the afternoon.
+        High 43F. WNW winds shifting to NE at 10 to 15 mph. Chance of rain 50%. Snow
+        accumulations less than one inch.\",\n\t\t\"fcttext_metric\":\"Variable clouds
+        with snow showers that will mix with rain showers later. High 6C. SSW winds
+        shifting to NE at 15 to 25 km/h. Chance of rain 50%. Snow accumulations less
+        than 2cm.\",\n\t\t\"pop\":\"50\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":19,\n\t\t\"icon\":\"nt_chancesnow\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_chancesnow.gif\",\n\t\t\"title\":\"Tuesday
+        Night\",\n\t\t\"fcttext\":\"Snow showers early. Breaks in the overcast later.
+        Low 22F. Winds SSE at 5 to 10 mph. Chance of snow 40%.\",\n\t\t\"fcttext_metric\":\"Snow
+        showers early. Breaks in the overcast later. Low near -5C. Winds SSE at 10
+        to 15 km/h. Chance of snow 40%.\",\n\t\t\"pop\":\"40\"\n\t\t}\n\t\t]\n\t\t},\n\t\t\"simpleforecast\":
+        {\n\t\t\"forecastday\": [\n\t\t{\"date\":{\n\t\"epoch\":\"1487556000\",\n\t\"pretty\":\"7:00
+        PM MST on February 19, 2017\",\n\t\"day\":19,\n\t\"month\":2,\n\t\"year\":2017,\n\t\"yday\":49,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"0\",\n\t\"monthname\":\"February\",\n\t\"monthname_short\":\"Feb\",\n\t\"weekday_short\":\"Sun\",\n\t\"weekday\":\"Sunday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MST\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":1,\n\t\t\"high\":
+        {\n\t\t\"fahrenheit\":\"63\",\n\t\t\"celsius\":\"17\"\n\t\t},\n\t\t\"low\":
+        {\n\t\t\"fahrenheit\":\"39\",\n\t\t\"celsius\":\"4\"\n\t\t},\n\t\t\"conditions\":\"Partly
+        Cloudy\",\n\t\t\"icon\":\"partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/partlycloudy.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":0,\n\t\t\"qpf_allday\":
+        {\n\t\t\"in\": 0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
+        0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.00,\n\t\t\"mm\":
+        0\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_day\":
+        {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
+        0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 20,\n\t\t\"kph\":
+        32,\n\t\t\"dir\": \"SSW\",\n\t\t\"degrees\": 199\n\t\t},\n\t\t\"avewind\":
+        {\n\t\t\"mph\": 15,\n\t\t\"kph\": 24,\n\t\t\"dir\": \"SSW\",\n\t\t\"degrees\":
+        199\n\t\t},\n\t\t\"avehumidity\": 24,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\":
+        0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1487642400\",\n\t\"pretty\":\"7:00
+        PM MST on February 20, 2017\",\n\t\"day\":20,\n\t\"month\":2,\n\t\"year\":2017,\n\t\"yday\":50,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"0\",\n\t\"monthname\":\"February\",\n\t\"monthname_short\":\"Feb\",\n\t\"weekday_short\":\"Mon\",\n\t\"weekday\":\"Monday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MST\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":2,\n\t\t\"high\":
+        {\n\t\t\"fahrenheit\":\"65\",\n\t\t\"celsius\":\"18\"\n\t\t},\n\t\t\"low\":
+        {\n\t\t\"fahrenheit\":\"42\",\n\t\t\"celsius\":\"6\"\n\t\t},\n\t\t\"conditions\":\"Clear\",\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":0,\n\t\t\"qpf_allday\":
+        {\n\t\t\"in\": 0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
+        0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.00,\n\t\t\"mm\":
+        0\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_day\":
+        {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
+        0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 10,\n\t\t\"kph\":
+        16,\n\t\t\"dir\": \"WSW\",\n\t\t\"degrees\": 241\n\t\t},\n\t\t\"avewind\":
+        {\n\t\t\"mph\": 9,\n\t\t\"kph\": 14,\n\t\t\"dir\": \"WSW\",\n\t\t\"degrees\":
+        241\n\t\t},\n\t\t\"avehumidity\": 19,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\":
+        0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1487728800\",\n\t\"pretty\":\"7:00
+        PM MST on February 21, 2017\",\n\t\"day\":21,\n\t\"month\":2,\n\t\"year\":2017,\n\t\"yday\":51,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"0\",\n\t\"monthname\":\"February\",\n\t\"monthname_short\":\"Feb\",\n\t\"weekday_short\":\"Tue\",\n\t\"weekday\":\"Tuesday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MST\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":3,\n\t\t\"high\":
+        {\n\t\t\"fahrenheit\":\"73\",\n\t\t\"celsius\":\"23\"\n\t\t},\n\t\t\"low\":
+        {\n\t\t\"fahrenheit\":\"48\",\n\t\t\"celsius\":\"9\"\n\t\t},\n\t\t\"conditions\":\"Clear\",\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":0,\n\t\t\"qpf_allday\":
+        {\n\t\t\"in\": 0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
+        0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.00,\n\t\t\"mm\":
+        0\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_day\":
+        {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
+        0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 20,\n\t\t\"kph\":
+        32,\n\t\t\"dir\": \"WSW\",\n\t\t\"degrees\": 239\n\t\t},\n\t\t\"avewind\":
+        {\n\t\t\"mph\": 13,\n\t\t\"kph\": 21,\n\t\t\"dir\": \"WSW\",\n\t\t\"degrees\":
+        239\n\t\t},\n\t\t\"avehumidity\": 19,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\":
+        0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1487815200\",\n\t\"pretty\":\"7:00
+        PM MST on February 22, 2017\",\n\t\"day\":22,\n\t\"month\":2,\n\t\"year\":2017,\n\t\"yday\":52,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"0\",\n\t\"monthname\":\"February\",\n\t\"monthname_short\":\"Feb\",\n\t\"weekday_short\":\"Wed\",\n\t\"weekday\":\"Wednesday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MST\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":4,\n\t\t\"high\":
+        {\n\t\t\"fahrenheit\":\"68\",\n\t\t\"celsius\":\"20\"\n\t\t},\n\t\t\"low\":
+        {\n\t\t\"fahrenheit\":\"34\",\n\t\t\"celsius\":\"1\"\n\t\t},\n\t\t\"conditions\":\"Clear\",\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":0,\n\t\t\"qpf_allday\":
+        {\n\t\t\"in\": 0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
+        0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.00,\n\t\t\"mm\":
+        0\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_day\":
+        {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
+        0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 25,\n\t\t\"kph\":
+        40,\n\t\t\"dir\": \"WSW\",\n\t\t\"degrees\": 239\n\t\t},\n\t\t\"avewind\":
+        {\n\t\t\"mph\": 19,\n\t\t\"kph\": 31,\n\t\t\"dir\": \"WSW\",\n\t\t\"degrees\":
+        239\n\t\t},\n\t\t\"avehumidity\": 19,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\":
+        0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1487901600\",\n\t\"pretty\":\"7:00
+        PM MST on February 23, 2017\",\n\t\"day\":23,\n\t\"month\":2,\n\t\"year\":2017,\n\t\"yday\":53,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"0\",\n\t\"monthname\":\"February\",\n\t\"monthname_short\":\"Feb\",\n\t\"weekday_short\":\"Thu\",\n\t\"weekday\":\"Thursday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MST\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":5,\n\t\t\"high\":
+        {\n\t\t\"fahrenheit\":\"46\",\n\t\t\"celsius\":\"8\"\n\t\t},\n\t\t\"low\":
+        {\n\t\t\"fahrenheit\":\"26\",\n\t\t\"celsius\":\"-3\"\n\t\t},\n\t\t\"conditions\":\"Snow\",\n\t\t\"icon\":\"snow\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/snow.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":80,\n\t\t\"qpf_allday\":
+        {\n\t\t\"in\": 0.21,\n\t\t\"mm\": 5\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
+        0.11,\n\t\t\"mm\": 3\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.09,\n\t\t\"mm\":
+        2\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 1.2,\n\t\t\"cm\": 3.0\n\t\t},\n\t\t\"snow_day\":
+        {\n\t\t\"in\": 0.3,\n\t\t\"cm\": 0.8\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
+        0.9,\n\t\t\"cm\": 2.3\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 20,\n\t\t\"kph\":
+        32,\n\t\t\"dir\": \"N\",\n\t\t\"degrees\": 356\n\t\t},\n\t\t\"avewind\": {\n\t\t\"mph\":
+        13,\n\t\t\"kph\": 21,\n\t\t\"dir\": \"N\",\n\t\t\"degrees\": 356\n\t\t},\n\t\t\"avehumidity\":
+        48,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\": 0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1487988000\",\n\t\"pretty\":\"7:00
+        PM MST on February 24, 2017\",\n\t\"day\":24,\n\t\"month\":2,\n\t\"year\":2017,\n\t\"yday\":54,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"0\",\n\t\"monthname\":\"February\",\n\t\"monthname_short\":\"Feb\",\n\t\"weekday_short\":\"Fri\",\n\t\"weekday\":\"Friday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MST\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":6,\n\t\t\"high\":
+        {\n\t\t\"fahrenheit\":\"39\",\n\t\t\"celsius\":\"4\"\n\t\t},\n\t\t\"low\":
+        {\n\t\t\"fahrenheit\":\"20\",\n\t\t\"celsius\":\"-7\"\n\t\t},\n\t\t\"conditions\":\"Mostly
+        Cloudy\",\n\t\t\"icon\":\"mostlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/mostlycloudy.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":20,\n\t\t\"qpf_allday\":
+        {\n\t\t\"in\": 0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
+        0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.00,\n\t\t\"mm\":
+        0\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_day\":
+        {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
+        0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 15,\n\t\t\"kph\":
+        24,\n\t\t\"dir\": \"NE\",\n\t\t\"degrees\": 50\n\t\t},\n\t\t\"avewind\": {\n\t\t\"mph\":
+        10,\n\t\t\"kph\": 16,\n\t\t\"dir\": \"NE\",\n\t\t\"degrees\": 50\n\t\t},\n\t\t\"avehumidity\":
+        42,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\": 0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1488074400\",\n\t\"pretty\":\"7:00
+        PM MST on February 25, 2017\",\n\t\"day\":25,\n\t\"month\":2,\n\t\"year\":2017,\n\t\"yday\":55,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"0\",\n\t\"monthname\":\"February\",\n\t\"monthname_short\":\"Feb\",\n\t\"weekday_short\":\"Sat\",\n\t\"weekday\":\"Saturday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MST\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":7,\n\t\t\"high\":
+        {\n\t\t\"fahrenheit\":\"45\",\n\t\t\"celsius\":\"7\"\n\t\t},\n\t\t\"low\":
+        {\n\t\t\"fahrenheit\":\"22\",\n\t\t\"celsius\":\"-6\"\n\t\t},\n\t\t\"conditions\":\"Clear\",\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":0,\n\t\t\"qpf_allday\":
+        {\n\t\t\"in\": 0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
+        0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.00,\n\t\t\"mm\":
+        0\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_day\":
+        {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
+        0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 15,\n\t\t\"kph\":
+        24,\n\t\t\"dir\": \"E\",\n\t\t\"degrees\": 93\n\t\t},\n\t\t\"avewind\": {\n\t\t\"mph\":
+        10,\n\t\t\"kph\": 16,\n\t\t\"dir\": \"E\",\n\t\t\"degrees\": 93\n\t\t},\n\t\t\"avehumidity\":
+        32,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\": 0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1488160800\",\n\t\"pretty\":\"7:00
+        PM MST on February 26, 2017\",\n\t\"day\":26,\n\t\"month\":2,\n\t\"year\":2017,\n\t\"yday\":56,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"0\",\n\t\"monthname\":\"February\",\n\t\"monthname_short\":\"Feb\",\n\t\"weekday_short\":\"Sun\",\n\t\"weekday\":\"Sunday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MST\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":8,\n\t\t\"high\":
+        {\n\t\t\"fahrenheit\":\"48\",\n\t\t\"celsius\":\"9\"\n\t\t},\n\t\t\"low\":
+        {\n\t\t\"fahrenheit\":\"24\",\n\t\t\"celsius\":\"-4\"\n\t\t},\n\t\t\"conditions\":\"Clear\",\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":20,\n\t\t\"qpf_allday\":
+        {\n\t\t\"in\": 0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
+        0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.00,\n\t\t\"mm\":
+        0\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_day\":
+        {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
+        0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 10,\n\t\t\"kph\":
+        16,\n\t\t\"dir\": \"E\",\n\t\t\"degrees\": 101\n\t\t},\n\t\t\"avewind\": {\n\t\t\"mph\":
+        9,\n\t\t\"kph\": 14,\n\t\t\"dir\": \"E\",\n\t\t\"degrees\": 101\n\t\t},\n\t\t\"avehumidity\":
+        32,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\": 0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1488247200\",\n\t\"pretty\":\"7:00
+        PM MST on February 27, 2017\",\n\t\"day\":27,\n\t\"month\":2,\n\t\"year\":2017,\n\t\"yday\":57,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"0\",\n\t\"monthname\":\"February\",\n\t\"monthname_short\":\"Feb\",\n\t\"weekday_short\":\"Mon\",\n\t\"weekday\":\"Monday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MST\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":9,\n\t\t\"high\":
+        {\n\t\t\"fahrenheit\":\"47\",\n\t\t\"celsius\":\"8\"\n\t\t},\n\t\t\"low\":
+        {\n\t\t\"fahrenheit\":\"25\",\n\t\t\"celsius\":\"-4\"\n\t\t},\n\t\t\"conditions\":\"Chance
+        of Rain\",\n\t\t\"icon\":\"chancerain\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/chancerain.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":30,\n\t\t\"qpf_allday\":
+        {\n\t\t\"in\": 0.14,\n\t\t\"mm\": 4\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
+        0.02,\n\t\t\"mm\": 1\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.12,\n\t\t\"mm\":
+        3\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 1.1,\n\t\t\"cm\": 2.8\n\t\t},\n\t\t\"snow_day\":
+        {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
+        1.1,\n\t\t\"cm\": 2.8\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 10,\n\t\t\"kph\":
+        16,\n\t\t\"dir\": \"N\",\n\t\t\"degrees\": 359\n\t\t},\n\t\t\"avewind\": {\n\t\t\"mph\":
+        8,\n\t\t\"kph\": 13,\n\t\t\"dir\": \"N\",\n\t\t\"degrees\": 359\n\t\t},\n\t\t\"avehumidity\":
+        38,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\": 0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1488333600\",\n\t\"pretty\":\"7:00
+        PM MST on February 28, 2017\",\n\t\"day\":28,\n\t\"month\":2,\n\t\"year\":2017,\n\t\"yday\":58,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"0\",\n\t\"monthname\":\"February\",\n\t\"monthname_short\":\"Feb\",\n\t\"weekday_short\":\"Tue\",\n\t\"weekday\":\"Tuesday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MST\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":10,\n\t\t\"high\":
+        {\n\t\t\"fahrenheit\":\"43\",\n\t\t\"celsius\":\"6\"\n\t\t},\n\t\t\"low\":
+        {\n\t\t\"fahrenheit\":\"22\",\n\t\t\"celsius\":\"-6\"\n\t\t},\n\t\t\"conditions\":\"Snow\",\n\t\t\"icon\":\"snow\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/snow.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":50,\n\t\t\"qpf_allday\":
+        {\n\t\t\"in\": 0.14,\n\t\t\"mm\": 4\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
+        0.13,\n\t\t\"mm\": 3\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.02,\n\t\t\"mm\":
+        1\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.9,\n\t\t\"cm\": 2.3\n\t\t},\n\t\t\"snow_day\":
+        {\n\t\t\"in\": 0.7,\n\t\t\"cm\": 1.8\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
+        0.2,\n\t\t\"cm\": 0.5\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 15,\n\t\t\"kph\":
+        24,\n\t\t\"dir\": \"NNE\",\n\t\t\"degrees\": 32\n\t\t},\n\t\t\"avewind\":
+        {\n\t\t\"mph\": 10,\n\t\t\"kph\": 16,\n\t\t\"dir\": \"NNE\",\n\t\t\"degrees\":
+        32\n\t\t},\n\t\t\"avehumidity\": 44,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\":
+        0\n\t\t}\n\t\t]\n\t\t}\n\t}\n}\n"
+    http_version: 
+  recorded_at: Sun, 19 Feb 2017 21:13:58 GMT
 recorded_with: VCR 3.0.3

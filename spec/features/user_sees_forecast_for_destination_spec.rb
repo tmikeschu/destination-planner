@@ -14,32 +14,34 @@ RSpec.describe do
   context "Visitor" do
     describe "visits a destination page" do
       scenario "and sees the forecast for that destination" do
-        destination = Destination.create(
-          name:"Miami",
-          zip:"33018",
-          description: "Warm & Sunny",
-          image_url: "google.com"
-        )
+        VCR.use_cassette("forecast-10-day-80218") do
+          destination = Destination.create(
+            name:"Denver",
+            zip:"80218",
+            description: "Warm & Sunny",
+            image_url: "google.com"
+          )
 
-        visit root_path
-        click_on destination.name
+          visit root_path
+          click_on destination.name
 
-        expect(current_path).to eq(destination_path(destination))
-        expect(page).to have_content(destination.name)
-        expect(page).to have_content(destination.zip)
-        expect(page).to have_content(destination.description)
-        expect(page).to have_selector('day', count: 10)
-        expect(page).to have_content("Monday")
-        expect(page).to have_content("Tuesday")
-        expect(page).to have_content("Wednesday")
-        expect(page).to have_content("Thursday")
-        expect(page).to have_content("Friday")
-        expect(page).to have_content("Saturday")
-        expect(page).to have_content("Sunday")
-        expect(page).to have_content("Forecast for #{destination.name}")
-        expect(page).to have_content("High (F): ")
-        expect(page).to have_content("Low (F): ")
-        expect(page).to have_content("Conditions: ")
+          expect(current_path).to eq(destination_path(destination))
+          expect(page).to have_content(destination.name)
+          expect(page).to have_content(destination.zip)
+          expect(page).to have_content(destination.description)
+          expect(page).to have_selector('.day', count: 10)
+          expect(page).to have_content("Monday")
+          expect(page).to have_content("Tuesday")
+          expect(page).to have_content("Wednesday")
+          expect(page).to have_content("Thursday")
+          expect(page).to have_content("Friday")
+          expect(page).to have_content("Saturday")
+          expect(page).to have_content("Sunday")
+          expect(page).to have_content("Forecast for #{destination.name}")
+          expect(page).to have_content("High (F): ")
+          expect(page).to have_content("Low (F): ")
+          expect(page).to have_content("Conditions: ")
+        end
       end
     end
   end

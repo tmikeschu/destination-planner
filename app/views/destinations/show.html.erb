@@ -19,7 +19,16 @@
 
   <div class="row">
     <h4>Forecast for <%= @presenter.destination_name %>:</h4>
-    <% @presenter.forecast_days.each do |day| %>
+    <ul>
+      <% @presenter.forecast_10_day.each do |day| %>
+        <li class="day">
+          <%= day.date %>
+          <%= "High (F): #{day.high_temp}" %>
+          <%= "Low (F): #{day.low_temp}" %>
+          <%= "Conditions: #{day.conditions}" %>
+        </li>
+      <% end %>
+    </ul>
   </div>
 
   <div class="row">
