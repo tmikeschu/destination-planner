@@ -16,11 +16,11 @@ class DestinationService
   end
 
   def default_api_path
-    "#{ENV["WUNDERGROUND_KEY"]}/forecast10day/q/#{@zip}"
+    "#{ENV["wunderground_key"]}/forecast10day/q/#{@zip}.json"
   end
 
   def json_days
-    JSON.parse(response, symbolize_names: true)
+    JSON.parse(response, symbolize_names: true)[:forecast][:simpleforecast][:forecastday]
   end
 
   def days

@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.wunderground.com/forecast10day/q/80218
+    uri: http://api.wunderground.com/api/227ecb1e776743ef/forecast10day/q/80218.json
     body:
       encoding: US-ASCII
       string: ''
@@ -15,495 +15,223 @@ http_interactions:
       - "*/*"
   response:
     status:
-      code: 404
-      message: Not Found
+      code: 200
+      message: OK
     headers:
       Access-Control-Allow-Credentials:
       - 'true'
       Access-Control-Allow-Origin:
-      - http://www.wunderground.com
+      - "*"
       Content-Type:
-      - text/html; charset=UTF-8
+      - application/json; charset=UTF-8
+      Last-Modified:
+      - Sun, 19 Feb 2017 20:18:10 GMT
       Server:
       - Apache/2.2.15 (CentOS)
       X-Creationtime:
-      - '0.006'
+      - '0.027'
       Vary:
       - Accept-Encoding
       Expires:
-      - Sun, 19 Feb 2017 20:09:19 GMT
+      - Sun, 19 Feb 2017 20:18:10 GMT
       Cache-Control:
       - max-age=0, no-cache
       Pragma:
       - no-cache
       Date:
-      - Sun, 19 Feb 2017 20:09:19 GMT
-      Transfer-Encoding:
-      - chunked
+      - Sun, 19 Feb 2017 20:18:10 GMT
+      Content-Length:
+      - '18026'
       Connection:
-      - Transfer-Encoding
       - keep-alive
       Set-Cookie:
-      - DT=1487534959:41469:ip-10-226-237-178; path=/; expires=Fri, 01-Jan-2020 00:00:00
+      - DT=1487535490:31107:ip-10-226-237-178; path=/; expires=Fri, 01-Jan-2020 00:00:00
         GMT; domain=.wunderground.com
-      - Prefs=FAVS:1|WXSN:1|PWSOBS:1|WPHO:1|PHOT:1|RADC:0|RADALL:0|HIST0:NULL|GIFT:1|PHOTOTHUMBS:50|;
+      - Prefs=FAVS:1|WXSN:1|PWSOBS:1|WPHO:1|PHOT:1|RADC:0|RADALL:0|HIST0:NULL|GIFT:1|PHOTOTHUMBS:50|EXPFCT:1|;
         path=/; expires=Fri, 01-Jan-2020 00:00:00 GMT; domain=.wunderground.com
     body:
       encoding: UTF-8
-      string: "\n<!DOCTYPE html>\n<!--[if IE 9]><html class=\"no-js ie9\"> <![endif]-->\n<!--[if
-        gt IE 9]><!--> <html class=\"no-js \"> <!--<![endif]-->\n\t<head>\n\t\t<title>Error
-        | Weather Underground</title>\n\t\t<link href=\"//icons.wxug.com/\" rel=\"dns-prefetch\"
-        />\n\t\t<link href=\"//api-ak.wunderground.com/\" rel=\"dns-prefetch\" />\n<meta
-        charset=\"utf-8\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n<meta
-        name=\"description\" content=\"\">\n<meta name=\"HandheldFriendly\" content=\"True\">\n<meta
-        name=\"MobileOptimized\" content=\"320\">\n<meta name=\"viewport\" content=\"width=device-width,
-        initial-scale=1, minimal-ui\">\n<meta http-equiv=\"cleartype\" content=\"on\">\n\t\t<meta
-        name=\"description\" content=\"Weather Underground provides local & long range
-        Weather Forecast, weather reports, maps & tropical weather conditions for
-        locations worldwide.\" />\n\t\t<meta name=\"keywords\" content=\"Weather,
-        Weather Underground, Error, forecasts, current conditions, rain, snow, hurricane,
-        tornado, storm, thunderstorm, tropical storm, wundermap, ski conditions, ski
-        report, surfing, marine, aviation, photographs, photos, severe weather\" />\n\t<meta
-        name=\"apple-itunes-app\" content=\"app-id=486154808, affiliate-data=at=1010lrYB&ct=website_wu\"
-        />\n<meta name=\"fb-app-id\" content=\"325331260891611\" />\n<meta name=\"fb-channel-url\"
-        content=\"//api.wunderground.com/php/lib/fb_sdk/channel.php\" />\n<meta name=\"wui-member-logged-in\"
-        content=\"false\" />\n\t\t<link rel=\"canonical\" href=\"https://www.wunderground.com/error.asp\"
-        />\n\t<link rel=\"apple-touch-icon\" href=\"//icons.wxug.com/favicon.png\"/>\n\t<link
-        rel=\"shortcut icon\" type=\"image/png\" href=\"//icons.wxug.com/favicon.png\"/>\n\t<link
-        rel=\"stylesheet\" href=\"//style.wxug.com/css/wu4/core.css?v=2015072702\">\n\t<link
-        rel=\"stylesheet\" href=\"//style.wxug.com/css/wu4/omnibus.css?v=2017021601\">\n\t<link
-        rel=\"stylesheet\" href=\"//style.wxug.com/css/wu4/error.css?v=2014111401\"
-        />\n\t<script src=\"//js-sec.indexww.com/ht/ls-wunderground.js\" async></script>\n\t<script
-        src=\"//icons.wxug.com/scripts/modernizr/2.8.2/modernizr.min.js\"></script>\n\t<script
-        src=\"//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js\"></script>\n\t<script
-        src=\"//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js\"></script>\n\t\t<script
-        src=\"//icons.wxug.com/scripts/wui-js/2.0.1/wui.min.js\"></script>\n\t\t<script
-        src=\"//icons.wxug.com/scripts/wui.login.min.js?v=1.3.18\"></script>\n\t</head>\n\t<body
-        class=\"standard Error-Error not-set  \">\n\t\t<div id=\"content-wrap\" class=\"relative
-        right-side-nav\">\n\t\t<nav id=\"feature-menu-mobile\" class=\"sidebar\">\n
-        \ <div class=\"sidebar-wrapper\">\n  <ul class=\"side-main-nav nav-bar\">\n
-        \ <li>\n  <a href=\"/login.asp\">Log in</a>\n  </li>\n  <li>\n  <a href=\"/member/registration\">Join</a>\n
-        \ </li>\n  </a>\n  <ul class=\"sideSubNav\">\n  <li class=\"sideGoBack\"><a
-        href=\"javascript:void(0);\"></a></li>\n  <li class=\"sidebar-heading no-link\">\n
-        \ &iexcl;Hola&#33;\n</li>\n<li>\n  <a href=\"/community/mail.asp\" id=\"wuMailGot\">\n
-        \ WU Mail\n  </a>\n</li>\n<li><a href=\"/member/membersettings.html\">Member
-        Settings</a></li>\n<li><a href=\"/email/mainmenu.php\">My Email &amp; Text
-        Alerts</a></li>\n<li><a href=\"/webcams/signup.html\" class=\"brBot3\">My
-        Webcams</a></li>\n<li><a href=\"/email/logout.php\">Sign Out</a></li>\n  </ul>\n
-        \ </li>\n  <li class=\"gotMore\">\n  <a href=\"#\">\n  <i class=\"fi-widget
-        sidebar-icon\"></i> Settings\n  </a>\n  <ul class=\"sideSubNav\">\n  <li class=\"sideGoBack\"><a
-        href=\"javascript:void(0);\">Settings</a></li>\n  <ul class=\"button-group
-        toggle radius\">\n  <li><a onclick=\"wui.SetUnitToEnglish()\" title=\"Switch
-        to English\" class=\"button selected\">&deg;F</a></li>\n  <li><a onclick=\"wui.SetUnitToMetric()\"
-        title=\"Switch to Metric\" class=\"button \">&deg;C</a></li>\n</ul>\n<ul class=\"button-group
-        radius toggle compact forecast-type\">\n  <li><a href=\"/cgi-bin/findweather/getForecast?setpref=EXPFCT&value=1&referer=%2fforecast10day%2fq%2f80218\"
-        title=\"Use BestForecast\" class=\"button selected\" onclick=\"_gaq.push(['_trackEvent',
-        'Forecast Toggle', 'Click', 'BestForecast']);\">BestForecast</a></li>\n  <li><a
-        href=\"/cgi-bin/findweather/getForecast?setpref=EXPFCT&value=0&referer=%2fforecast10day%2fq%2f80218\"
-        title=\"Use NWS\" class=\"button \" onclick=\"_gaq.push(['_trackEvent', 'Forecast
-        Toggle', 'Click', 'NWS']);\">NWS</a></li>\n</ul>\n<p><a href=\"/about/data.asp#differences\">What's
-        the difference?</a></p>\n  </ul>\n  </li>\n  <li class=\"gotMore\">\n  <a
-        href=\"javascript:void(0);\" class=\"maps\">Maps & Radar</a>\n  <ul class=\"sideSubNav\">\n
-        \ <li class=\"sideGoBack\"><a href=\"javascript:void(0);\">Maps & Radar</a></li>\n
-        \ <li><a href=\"/weather-radar/\" title=\"Radar Maps\">Radar Maps</a></li>\n
-        \ <li><a href=\"/wundermap/?radar=1\">Interactive Radar</a></li>\n  <li><a
-        href=\"/wundermap/?sat=1\">Interactive Satellite</a></li>\n  <li><a href=\"/wundermap/\"
-        title=\"WunderMap\">WunderMap</a></li>\n  <li><a href=\"/maps/\" title=\"Current
-        Conditions Maps\">Current Conditions Maps</a></li>\n  <li><a href=\"/ndfdimage/viewimage/\"
-        title=\"Forecast Maps\">Forecast Maps</a></li>\n\t\t<li><a href=\"/maps/catalog/\"
-        title=\"All Maps Catalog\">Maps Catalog</a></li>\n  </ul>\n  </li>\n  <li
-        class=\"gotMore\">\n  <a href=\"javascript:void(0);\" class=\"severe\">Severe
-        Weather</a>\n  <ul class=\"sideSubNav\">\n  <li class=\"sideGoBack\"><a href=\"javascript:void(0);\">Severe
-        Weather</a></li>\n  <li><a href=\"/severe.asp\" title=\"U.S. Severe Weather
-        Map\">U.S. Severe Weather Map</a></li>\n  <li><a href=\"/severe/europe.asp\"
-        title=\"Europe Severe Weather Map\">Europe Severe Weather Map</a></li>\n  <li><a
-        href=\"/hurricane/\" title=\"Hurricane &amp; Tropical Cyclones\">Hurricane
-        &amp; Tropical Cyclones</a></li>\n  <li><a href=\"/severeconvective.asp\"
-        title=\"Convective Outlook\">Convective Outlook</a></li>\n\t\t<li><a href=\"/wundermap?fire=1\"
-        title=\"Wildfires\">Wildfires</a></li>\n  <li><a href=\"/prepare/\" title=\"Preparedness\">Preparedness</a></li>\n
-        \ <li><a href=\"/email/emailsettings.asp\" title=\"Weather Alerts\">Weather
-        Alerts</a></li>\n  </ul>\n  </li>\n  <li class=\"gotMore\">\n  <a href=\"javascript:void(0);\"
-        class=\"news\">News &amp; Blogs<span class=\"new-badge-text-only live twiw\">LIVE!</span></a>\n
-        \ <ul class=\"sideSubNav\">\n  <li class=\"sideGoBack\"><a href=\"javascript:void(0);\">News
-        &amp; Blogs</a></li>\n  <li><a href=\"/blog/JeffMasters/show.html\" title=\"Category
-        6&trade;\">Category 6&trade;</a></li>\n  <li><a href=\"/blog/\" title=\"WunderBlog&reg;
-        Directory\">WunderBlog&reg; Directory</a></li>\n  <li><a href=\"/news/\" title=\"Recent
-        News Stories\">Recent News Stories</a></li>\n  <li><a href=\"/weather-infographics/\"
-        title=\"Weather Infographics\">Weather Infographics</a></li>\n  <li><a href=\"/weather-posters/\"
-        title=\"Weather Posters\">Weather Posters</a></li>\n  </ul>\n  </li>\n  <li
-        class=\"gotMore\">\n  <a href=\"javascript:void(0);\" class=\"photos\">Photos
-        &amp; Video</a>\n  <ul class=\"sideSubNav\">\n  <li class=\"sideGoBack\"><a
-        href=\"javascript:void(0);\">Photos &amp; Video</a></li>\n  <li><a href=\"/wximage/\"
-        title=\"WunderPhotos\">WunderPhotos</a></li>\n  <li><a href=\"/webcams/\"
-        title=\"Webcams\">Webcams</a></li>\n  <li><a href=\"/video/\" title=\"Videos\">Videos</a></li>\n
-        \ <li><a href=\"/wutv/\" title=\"WUTV\">WUTV</a></li>\n  </ul>\n  </li>\n
-        \ <li><a href=\"/history/\" class=\"history\" title=\"Historical Weather\">Historical
-        Weather</a></li>\n  <li class=\"gotMore\">\n  <a href=\"javascript:void(0);\"
-        class=\"activities\">Activities</a>\n  <ul class=\"sideSubNav\">\n\t\t<li
-        class=\"sideGoBack\"><a href=\"javascript:void(0);\">Activities</a></li>\n\t\t<li><a
-        href=\"/ski/\" title=\"Ski &amp; Snow Reports\">Ski &amp; Snow Reports</a></li>\n\t\t<li><a
-        href=\"/marine-weather/\" title=\"Marine Weather\">Marine Weather</a></li>\n
-        \ </ul>\n  </li>\n  <li>\n  <a href=\"/sitemap/\" class=\"browse\">Site Map</a>\n
-        \ </li>\n  </ul>\n  <ul class=\"sidebar-footer\">\n\t\t<li><a href=\"/weatherstation/about.asp\"
-        title=\"Personal Weather Station Network\">Personal Weather Station Network</a></li>\n\t\t<li><a
-        href=\"/download\" title=\"Weather Underground Mobile Apps\">Mobile Apps</a></li>\n\t\t<li><a
-        href=\"/weather/api/\" title=\"Weather API for Developers\">Weather API for
-        Developers</a></li>\n  </ul>\n  </div>\n</nav>\n\t\t<nav class=\"topbar\">\n\t<div
-        id=\"global-header\" class=\"new-wu\">\n\t\t<a href=\"javascript:void(0);\"
-        id=\"sidebarButton\" class=\"right-off-canvas-toggle\"><span class=\"fi-list-wrap\"><i
-        class=\"fi-list\"></i></span></a>\n\t\t<a href=\"/\" id=\"header-logo\" class=\"logo\"
-        title=\"Weather Underground (10.226.246.171)\"></a>\n\t\t<nav id=\"feature-menu\"
-        class=\"feature-menu\">\n  <ul class=\"menu-list\">\n\t <li>\n\t\t<label class=\"maps\">Maps
-        & Radar</label>\n\t\t<ul class=\"menu-list\">\n\t\t<li><a href=\"/weather-radar/\"
-        title=\"Radar Maps\">Radar Maps</a></li>\n  <li><a href=\"/wundermap/?radar=1\">Interactive
-        Radar</a></li>\n  <li><a href=\"/wundermap/?sat=1\">Interactive Satellite</a></li>\n\t\t<li><a
-        href=\"/wundermap/\" title=\"WunderMap\">WunderMap</a></li>\n\t\t<li><a href=\"/maps/\"
-        title=\"Current Conditions Maps\">Current Conditions Maps</a></li>\n\t\t<li><a
-        href=\"/ndfdimage/viewimage/\" title=\"Forecast Maps\">Forecast Maps</a></li>\n\t\t<li><a
-        href=\"/maps/catalog/\" title=\"All Maps Catalog\">Maps Catalog</a></li>\n\t\t</ul>\n\t
-        </li>\n\t <li>\n\t\t<label class=\"severe\">Severe Weather</label>\n\t\t<ul
-        class=\"menu-list\">\n\t\t<li><a href=\"/severe.asp\" title=\"U.S. Severe
-        Weather Map\">U.S. Severe Weather Map</a></li>\n\t\t<li><a href=\"/severe/europe.asp\"
-        title=\"Europe Severe Weather Map\">Europe Severe Weather Map</a></li>\n\t\t<li><a
-        href=\"/hurricane/\" title=\"Hurricane &amp; Tropical Cyclones\">Hurricane
-        &amp; Tropical Cyclones</a></li>\n\t\t<li><a href=\"/severeconvective.asp\"
-        title=\"Convective Outlook\">Convective Outlook</a></li>\n\t\t<li><a href=\"/wundermap?fire=1\"
-        title=\"Wildfires\">Wildfires</a></li>\n\t\t<li><a href=\"/prepare/\" title=\"Preparedness\">Preparedness</a></li>\n\t\t<li><a
-        href=\"/weather-alerts/\" title=\"Weather Alerts\">Text/Email Alerts</a></li>\n\t\t</ul>\n\t
-        </li>\n\t <li>\n\t\t<label class=\"news\">News &amp; Blogs<span class=\"new-badge-text-only
-        live twiw\">LIVE!</span></label>\n\t\t<ul class=\"menu-list\">\n\t\t<li><a
-        href=\"/blog/JeffMasters/show.html\" title=\"Category 6&trade;\">Category
-        6&trade;</a></li>\n\t\t<li><a href=\"/blog/\" title=\"WunderBlog&reg; Directory\">WunderBlog&reg;
-        Directory</a></li>\n\t\t<li><a href=\"/news/\" title=\"Recent News Stories\">Recent
-        News Stories</a></li>\n\t\t<li><a href=\"/weather-infographics/\" title=\"Weather
-        Infographics\">Weather Infographics</a></li>\n\t\t<li><a href=\"/weather-posters/\"
-        title=\"Weather Posters\">Weather Posters</a></li>\n\t\t</ul>\n\t </li>\n\t
-        <li>\n\t\t<label class=\"photos\">Photos &amp; Video</label>\n\t\t<ul class=\"menu-list\">\n\t\t<li><a
-        href=\"/wximage/\" title=\"WunderPhotos\">WunderPhotos</a></li>\n\t\t<li><a
-        href=\"/webcams/\" title=\"Webcams\">Webcams</a></li>\n\t\t<li><a href=\"/video/\"
-        title=\"Videos\">Videos</a></li>\n\t\t<li><a href=\"/wutv/\" title=\"WUTV\">WUTV</a></li>\n\t\t</ul>\n\t
-        </li>\n\t <li>\n\t\t<label class=\"activities\">Activities</label>\n\t\t<ul
-        class=\"menu-list\">\n\t\t<li><a href=\"/ski/\" title=\"Ski &amp; Snow Reports\">Ski
-        &amp; Snow Reports</a></li>\n\t\t<li><a href=\"/marine-weather/\" title=\"Marine
-        Weather\">Marine Weather</a></li>\n\t\t</ul>\n\t </li>\n\t <li><a href=\"/history/\">Historical
-        Weather</a></li>\n\t <li><a href=\"/weatherstation/about.asp\" title=\"Personal
-        Weather Station Network\">Personal Weather Station Network</a></li>\n\t <li><a
-        href=\"/personal-weather-station/signup\" title=\"Register Your Personal Weather
-        Station\">Register Your PWS</a></li>\n  <li><a href=\"http://wundergroundstore.com\"
-        title=\"Weather Underground Store\">WU Store</a></li>\n\t <li><a href=\"/download\"
-        title=\"Weather Underground Mobile Apps\">Mobile Apps</a></li>\n  <li><a href=\"/printer/cityforecast.asp\"
-        title=\"Daily Forecast Flyer\">Daily Forecast Flyer</a></li>\n\t <li><a href=\"/weather/api/\"
-        title=\"Weather API for Developers\">Weather API for Developers</a></li>\n\t
-        <li><a href=\"/sitemap/\" title=\"Site Map\">Site Map</a></li>\n  </ul>\n</nav>\n\t\t<div
-        id=\"wuForm-contain\" class=\"wu-form-contain\">\n\t\t<form action=\"/cgi-bin/findweather/getForecast\"
-        name=\"wxsearch\" id=\"wuForm\" class=\"wu-form ui-front\">\n\t\t<div id=\"wuSearch-contain\"
-        class=\"wu-search-contain\">\n\t\t<input type=\"search\" name=\"query\" value=\"\"
-        id=\"wuSearch\" class=\"wu-search\" placeholder=\"Search Locations\" data-autoinitialize=\"true\"
-        />\n\t\t<span class=\"close-search\">\n\t\t<i class=\"fi-x-circle\"></i>\n\t\t</span>\n\t\t<span
-        class=\"geolocate-wrap\">\n\t\t<i class=\"fi-target-two\"></i>\n\t\t</span>\n\t\t</div>\n\t\t</form>\n\t\t</div>\n\t\t<div
-        class=\"hide-for-small\">\n\t\t<p class=\"wu-account\" id=\"wuAccount\"><a
-        id=\"wu-member\" href=\"/login.asp\">Log in</a> | <a id=\"wu-member\" href=\"/member/registration\">Join</a></p>\n\t\t</a>\n\t\t<a
-        href=\"#\" data-dropdown=\"wuSettings-quick\" id=\"wuSettings\" class=\"wu-settings\">\n\t\t<i
-        class=\"fi-widget\"></i>\n\t\t</a>\n\t\t</div>\n\t\t<div id=\"wuSettings-quick\"
-        data-dropdown-content class=\"wu-settings-quick f-dropdown content\" >\n\t\t<ul
-        class=\"button-group toggle radius\">\n  <li><a onclick=\"wui.SetUnitToEnglish()\"
-        title=\"Switch to English\" class=\"button selected\">&deg;F</a></li>\n  <li><a
-        onclick=\"wui.SetUnitToMetric()\" title=\"Switch to Metric\" class=\"button
-        \">&deg;C</a></li>\n</ul>\n<ul class=\"button-group radius toggle compact
-        forecast-type\">\n  <li><a href=\"/cgi-bin/findweather/getForecast?setpref=EXPFCT&value=1&referer=%2fforecast10day%2fq%2f80218\"
-        title=\"Use BestForecast\" class=\"button selected\" onclick=\"_gaq.push(['_trackEvent',
-        'Forecast Toggle', 'Click', 'BestForecast']);\">BestForecast</a></li>\n  <li><a
-        href=\"/cgi-bin/findweather/getForecast?setpref=EXPFCT&value=0&referer=%2fforecast10day%2fq%2f80218\"
-        title=\"Use NWS\" class=\"button \" onclick=\"_gaq.push(['_trackEvent', 'Forecast
-        Toggle', 'Click', 'NWS']);\">NWS</a></li>\n</ul>\n<p><a href=\"/about/data.asp#differences\">What's
-        the difference?</a></p>\n\t\t<a href=\"/member/membersettings.html?page=prefs\"
-        id=\"wuSettings-more\" class=\"wu-settings-more\">More Settings</a>\n\t\t</div>\n\t</div>\n</nav>\n<script
-        type=\"text/template\" id=\"autocomplete_item_template\">\n\t<% var defcon
-        = (item.condition && item.condition.defcon) || 0; %>\n\t<% if (item.task=='geolocate')
-        { %>\n\t\t<li class=\"geolocate-button\"><div class=\"mimic-a\"><span class=\"location-icon\"><i
-        class=\"fi-target-two\"></i></span><%= item.name %></div></li>\n\t<% } else
-        if (item.task=='headerGeolocate') { %>\n\t\t<li class=\"ui-autocomplete-geolocate\"><div
-        class=\"mimic-a menu-geolocate\"><i class=\"fi-target-two\"></i><%= item.name
-        %></div></li>\n\t<% } else { %>\n\t\t<li class=\"needsclick needsfocus <%
-        if (isCity) { %>is-city<% } %><% if (isFav) { %> is-fav<% } %><% if (hasConds
-        && item.condition.severe) { %> is-severe defcon-<%= defcon %><% } %><% if
-        (hasConds) { %> has-conds<% } %>\">\n\t\t<a class=\"needsclick needsfocus\">\n\t\t<%
-        if (item.label) { %><span class=\"needsclick needsfocus city-name\"><%= item.label
-        %> <i class=\"needsclick needsfocus fi-<% if (defcon > 4) { %>info<% } else
-        { %>alert<% } %>\"></i></span><% } %>\n\t\t<% if (hasConds) { %>\n\t\t<span
-        class=\"needsclick needsfocus city-conds\">\n\t\t<%= item.condition.temperature
-        %> &deg;F <%= item.condition.condition %>\n\t\t</span>\n\t\t<span class=\"needsclick
-        needsfocus cond-icon-touch cond-set-<%= item.condition.iconPref %> cond-<%=
-        item.condition.icon %>\"></span>\n\t\t<% } %>\n\t\t<% if (isCity) { %><span
-        class=\"needsclick needsfocus city-star\" title=\"<% if (isFav) { %>Remove
-        From<% } else { %>Add To<% } %> Favorite Cities\"></span><% } %>\n\t\t</a>\n\t\t</li>\n\t<%
-        } %>\n</script>\n\t\t<div id=\"inner-wrap\">\n\t\t<div id=\"header-alert-bar\"
-        class=\"loading-bar\"></div>\n\t\t<div class=\"favs-wrapper\">\n\t<div id=\"favorites\"
-        class=\"favorites \">\n\t\t<div class=\"favorites-bar\"></div>\n\t\t<input
-        type=\"button\" class=\"favorites-list-toggle\" value=\"&#x25BC;\" data-dropdown=\"favorites-list\"
-        />\n\t\t<div class=\"favorites-list f-dropdown\" data-dropdown-content id=\"favorites-list\"></div>\n\t</div>\n</div>\n<script
-        type=\"text/template\" id=\"favorites-city-template\">\n\t<%\n\t\tvar options
-        = options || {};\n\t\tvar isCity = true;\n\t\tvar isFav = wui.favorites.is(city.zmw);\n\t\tvar
-        isHome = ''==city.zmw?true:false;\n\t\t//hasConds: (options.showConditions
-        && !!(item.condition))\n\t\tvar hasConds = !!(city.condition);\n\t\tvar defcon
-        = hasConds && city.condition.defcon ? city.condition.defcon : 5;\n\t%>\n\t<li
-        class=\"<% if (isCity) { %>is-city<% } %><% if (isFav) { %> is-fav<% } %><%
-        if (hasConds && city.condition.severe) { %> is-severe defcon-<%= defcon %><%
-        } %><% if (hasConds) { %> has-conds<% } %>\" <% if (isCity) { %>data-zmw=\"<%=
-        city.zmw %>\" data-cityName=\"<%= city.name %>\" <% } %>>\n\t\t<% if (options.label)
-        { %><label><%= options.label %></label><% } %>\n\t\t<a href=\"<%= city.url
-        %>/zmw:<%= city.zmw %>\">\n\t\t<span class=\"city-name\"><%= city.name %>
-        <i class=\"fi-<% if (defcon > 4) { %>info<% } else { %>alert<% } %>\"></i></span>\n\t\t<%
-        if (hasConds) { %>\n\t\t<span class=\"city-conds\">\n\t\t<%= city.condition.temperature
-        %> &deg;F <%= city.condition.condition %>\n\t\t</span>\n\t\t<span class=\"cond-icon-touch
-        cond-set-<%= city.condition.iconPref %> cond-<%= city.condition.icon %>\"></span>\n\t\t<%
-        } %>\n\t\t<% if (isCity) { %><span class=\"city-star\" title=\"<% if (isFav)
-        { %>Remove From<% } else { %>Add To<% } %> Favorite Cities\"></span><% } %>\n\t\t<%\n\t\t\t\t//removing
-        home button from list now that we have location management on the page - dxf\n\t\t\t\tif
-        (isCity && 0) {\n\t\t\t%><span class=\"city-home <% if (isHome) { %> active
-        <% }  %>\" title=\"Set this as your Home City\"</span><% } %>\n  </a>\n\t</li>\n</script>\n<script
-        type=\"text/template\" id=\"favorites-bar-template\">\n\t<ul class=\"no-bullet\">\n\t\t<li><a
-        href=\"/member/membersettings.html?page=favorites\" title=\"Manage Favorites\"><i
-        class=\"fi-star\"></i></a></li>\n\t\t<%\n\t\t\tif(favorites.length > 0) {\n\t\t_.each(favorites,
-        function(city) {\n\t\tprint(templateCity({\n\t\tcity: city\n\t\t}));\n\t\t});\n\t\t}
-        else {\n\t\ttry {\n\t\tif(favCityList) {\n\t\t%>\n\t\t<li><a>Loading favorites...</a></li>\n\t\t<%\n\t\t\t\t}}
-        catch(e) {}\n\t\t\t} %>\n\t\t<%\n\t\t\tif(favorites.length == 0) {\n\t\t\t%>\n\t\t<li
-        class=\"popularCities-label\">Popular <br/>Cities</li>\n\t\t<%\n\t\t\t\t_.each(popular,
-        function(city, i) {\n\t\t\t\t\tprint(templateCity({\n\t\t\t\t\t\tcity: city,\n\t\t\t\t\t}));\n\t\t\t\t});\n\t\t\t}\n\t\t\t%>\n\t</ul>\n</script>\n<script
-        type=\"text/template\" id=\"favorites-list-template\">\n\t<label>Popular Cities</label>\n\t<ul
-        class=\"list-recents\">\n\t\t<% _.each(popular, function(city) {\n\t\t\tprint(templateCity({\n\t\t\t\tcity:
-        city\n\t\t\t}));\n\t\t}); %>\n\t</ul>\n</script>\n\t\t<section id=\"inner-content\"
-        class=\"inner-content\" role=\"main\">\n\t\t<div class=\"row\">\n  <div class=\"center
-        small-12 medium-8 large-6 medium-centered large-centered columns\">\n  <b>Error
-        404: Page Not Found</b>\n  </div>\n  <div class=\"small-12 medium-6 large-6
-        columns\">\n  <img src=\"//icons.wxug.com/i/404/BrutusServers.png\" class=\"left-col\">\n
-        \ </div>\n  <div class=\"small-12 medium-6 large-6 columns\">\n\t\t<div class=\"right-col\">\n
-        \ <h3><b>Either Brutus is in the server room or it might be that:</b></h3>\n\t\t<div
-        class=\"reason\">\n\t\t<ul>\n\t <li>The page you requested does not exist.
-        Please check the URL or refer to the <a href=\"http://www.wunderground.com/sitemap/index.asp\">Site
-        Map</a> for a list of features and products.</li>\n  </ul>\n  </div>\n\t\t<p
-        class=\"contact\">If this problem persists, <a href=\"/about/contact.asp\">please
-        contact us</a>.</p>\n\t\t<p class=\"contact\">To get to where you were before,
-        <a href=\"javascript:history.back()\">go back</a>.</p>\n\t\t<p>Error Code:
-        10.226.246.171</p>\n  </div>\n\t</div>\n\t<div class=\"clearfix\">\n\t</div>\n
-        \ <div class=\"center small-12 medium-12 large-8 small-centered medium-centered
-        columns\">\n\t <div>\n\t\t<h3><b>Here's some other cool stuff to check out:</b></h3>\n
-        \ <a href=\"/cgi-bin/findweather/getForecast?query=39.676998,-104.964699\"><img
-        src=\"//icons.wxug.com/i/404/LocalForecast.png\"></a>\n  <a href=\"/wundermap\"><img
-        src=\"//icons.wxug.com/i/404/Wundermap.png\"></a>\n  <a href=\"/wximage\"><img
-        src=\"//icons.wxug.com/i/404/Wunderphotos.png\"></a>\n  </div>\n\t</div>\n</div>\n\t\t</section>\n\t\t<footer
-        class=\"primary\">\n\t<div class=\"row\">\n\t\t<div class=\"small-12 large-6
-        large-centered columns\">\n\t\t<div class=\"row\">\n\t\t<div class=\"small-12
-        medium-4 columns\">\n\t\t<ul class=\"no-bullet\">\n\t\t<li><a href=\"/about/our-company\"
-        title=\"About Weather Underground\">About</a></li>\n\t\t<li><a href=\"/about/contact-us\"
-        title=\"Contact Weather Underground\">Contact</a></li>\n\t\t<li><a href=\"http://careers.weather.com/search/?q=&locationsearch=san+francsico?utm_source=careersite&utm_campaign=wunderground\"
-        target=\"_blank\" title=\"Weather Underground Employment Opportunities\">Jobs</a></li>\n\t\t<li><a
-        href=\"http://www.theweathercompany.com/newsroom\" target=\"_blank\" title=\"Weather
-        Underground In The News\">News</a></li>\n\t\t</ul>\n\t\t</div>\n\t\t<div class=\"small-12
-        medium-4 columns\">\n\t\t<ul class=\"no-bullet\">\n\t\t<li><a href=\"/download\"
-        title=\"Weather Underground Mobile Apps\">Our Apps</a></li>\n\t\t<li><a href=\"/weather/api\"
-        title=\"The Weather API\">Weather API</a></li>\n\t\t<li><a href=\"/fullscreenweather\"
-        title=\"Experience Full Screen Weather\">Full Screen Weather</a></li>\n\t\t<li><a
-        href=\"/weatherstation/\" title=\"Personal Weather Station Network\">Personal
-        Weather Stations</a></li>\n\t\t</ul>\n\t\t</div>\n\t\t<div class=\"small-12
-        medium-4 columns\">\n\t\t<ul class=\"no-bullet\">\n\t\t<li><a href=\"/sitemap/\"
-        title=\"Weather Underground Site Map\">Site Map</a></li>\n\t\t<li><a href=\"http://help.wunderground.com/\"
-        target=\"_blank\" title=\"Customer Feedback for Weather Underground\">Feedback</a></li>\n\t\t<li><a
-        href=\"/legal\" title=\"Privacy Statement\">Privacy</a></li>\n\t\t<li><a href=\"/ad-choices\"
-        class=\"ad-choices\">AdChoices</a></li>\n\t\t</ul>\n\t\t</div>\n\t\t</div>\n\t\t</div>\n\t</div>\n\t<div
-        class=\"row\">\n\t\t<div class=\"columns copyright-wrap\">\n\t\t<p class=\"copyright\">\n\t\t&copy;
-        Copyright 2017 The Weather Company, LLC\n\t\t</p>\n\t\t</div>\n\t</div>\n</footer>\n<a
-        class=\"exit-off-canvas\"></a>\n\t\t</div>\n\t\t<div id=\"why-ads-modal\"
-        class=\"reveal-modal small-modal\" data-reveal aria-hidden=\"true\" role=\"dialog\">\n
-        \ <p>Ads help us bring you the weather for free. We want to be able to continue
-        building great weather products for everyone.</p>\n  <p>\n  For less than
-        a dollar a month ($10/yr) you can sign up for a premium membership and remove
-        ads.\n  </p>\n  <p class=\"text-center\">\n  <a href=\"/member/registration\"
-        class=\"button medium radius\">Remove Ads</a>\n  </p>\n  <a class=\"close-reveal-modal\"
-        aria-label=\"Close\">&#215;</a>\n</div>\n\t\t</div>\n<script>\n\twui.bootstrapped
-        = {\n\t\ticonPath: \"i/c/v4\",\n\t\t\"localtime\": {\n  \"epoch\": null,\n
-        \ \"pretty\": null,\n  \"rfc822\": null,\n  \"iso8601\": null,\n  \"year\":
-        null,\n  \"month\": null,\n  \"day\": null,\n  \"yday\": null,\n  \"hour\":
-        null,\n  \"min\": null,\n  \"sec\": null,\n  \"monthname\": null,\n  \"monthname_short\":
-        null,\n  \"weekday\": null,\n  \"weekday_short\": null,\n  \"ampm\": null,\n
-        \ \"tz_short\": null,\n  \"tz_long\": null,\n  \"tz_offset_text\": null,\n
-        \ \"tz_offset_hours\": null\n},\n\t\t\"usertime\": {\n  \"epoch\": 1487534959,\n
-        \ \"pretty\": \"8:09 PM GMT on February 19, 2017\",\n  \"rfc822\": \"Sun,
-        19 Feb 2017 20:09:19 +0000\",\n  \"iso8601\": \"2017-02-19T20:09:19+0000\",\n
-        \ \"year\": 2017,\n  \"month\": 2,\n  \"day\": 19,\n  \"yday\": 49,\n  \"hour\":
-        20,\n  \"min\": \"09\",\n  \"sec\": 19,\n  \"monthname\": \"February\",\n
-        \ \"monthname_short\": \"Feb\",\n  \"weekday\": \"Sunday\",\n  \"weekday_short\":
-        \"Sun\",\n  \"ampm\": \"PM\",\n  \"tz_short\": \"GMT\",\n  \"tz_long\": \"UTC\",\n
-        \ \"tz_offset_text\": \"+0000\",\n  \"tz_offset_hours\": 0.00\n},\n\t\tsearch:
-        \"\", //Used for Wundermap autocomplete initialization\n\t\tasync: false,\n\t\thttps:
-        false,\n\t\tsmurfs: false,\n\t\tshowUstreamTDU: false,\n\t\tshowDailyDownpourTDU:
-        false,\n\t\tshowSurveyBanner: false,\n\t\tshowVoteHook: false,\n\t\tdaysToElection:
-        \"-11\",\n\t showPrivacyBanner: false,\n\t\tdailyDownpourText: '',\n\t\tshowBOM:
-        false,\n\t\t//These scripts are interacted with via scriptUsher.js, located
-        in wui-js\n\t\tscripts: {\n\t\tamazon_bid: {\n\t\turl: \"//aax.amazon-adsystem.com/e/dtb/bid?src=1004&u=\"+encodeURIComponent(document.location)+\"&cb=\"+Math.round(1e7
-        * Math.random()),\n\t\tpromise: null,\n\t\ttimeout: 500\n\t\t},\n\t\tlotame_ads:
-        {\n\t\turl :\"//ad.crwdcntrl.net/5/c=2215/pe=y/callback=?\",\n\t\tdataType
-        : \"jsonp\",\n\t\tpromise: null,\n\t\ttimeout: 500\n\t\t},\n\t\twfxtriggers:
-        {\n\t\turl:\"//triggers1.wfxtriggers.com/json/?resp_type=json&acctid=\" +
-        (window.innerWidth > 990 ? \"B1CC73\" : \"5B3739\") + \"&current=true&df=1,2,3&zcs=&nzcs=\",\n\t\tdataType
-        : \"jsonp\",\n\t\tpromise: null,\n\t\ttimeout: 500\n\t\t},\n\t\t'amp.premier':
-        {\n\t\turl: '/amp.premier/amp.premier.min.js',\n\t\tdone: function() {\n\t\takamai.amp.AMP.loadDefaults('/amp.premier/amp.premier.xml');\n\t\t}\n\t\t},\n\t\tgooglemaps:
-        {\n\t\turl: \"//maps.googleapis.com/maps/api/js?sensor=false&client=gme-theweatherchannel&channel=CityPage&libraries=geometry&\"
-        +\n\t\t\"callback=wui.bootstrapped.scripts.googlemaps.callback\",\n\t\tpromise:
-        null,\n\t\tcallback: function() {\n\t\twui.bootstrapped.scripts.googlemaps.promise.resolve();\n\t\t}\n\t\t},\n\t\tmapbox:
-        {\n\t\turl: \"//api.mapbox.com/mapbox.js/v2.2.2/mapbox.js?\",\n\t\tpromise:
-        null\n\t\t},\n\t\tmosaicmap: {\n\t\t//url: \"//icons.wxug.com/wxmapsdk/1.1.2/wx.js?apiKey=abcdefghijklmnopqrstuvwxyz0123456789&\",\n\t\turl:
-        \"//icons.wxug.com/scripts/wxmapsdk/1.5.0/wx.js\",\n\t\tpromise: null\n\t\t},\n\t\tmosaicwundermap:
-        {\n  url: \"//icons.wxug.com/scripts/mosaicmap/1.2.1/wui.mosaicmap.min.js\",\n\t\tpromise:
-        null\n\t\t},\n\t\tinfobox: {\n\t\turl: \"/scripts/wundermap/src/wu4/stable/gmap_util_lib/infobox_packed.js?v=3.5.20\",\n\t\tpromise:
-        null\n\t\t},\n\t\t'jquery-cookie': {\n\t\turl: \"//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js\",\n\t\tpromise:
-        null\n\t\t},\n\t\ttealium: {\n\t\turl: \"//tags.tiqcdn.com/utag/weather/wunderground/prod/utag.js\",\n\t\tpromise:
-        null\n\t\t},\n\t\twundermap: {\n\t\t// SHH TODO: Update SERVERCONFIG, then
-        reference SERVERCONFIG.WunderMap.Version.release\n\t\turl: \"//icons.wxug.com/scripts/wundermap/release/8.1.2/wundermap.min.js?v=1.3\",\n\t\tpromise:
-        null\n\t\t},\n\t\tangularStationselect: {\n\t\turl: '//icons.wxug.com/scripts/angular/1.3.1/angular.min.js',\n
-        \ promise: null,\n\t\tdone: function() {\n  var stationselect_promise = null;\n
-        \ stationselect_promise = wui.usher.loadScript('stationselect');\n\t\t}\n\t\t},\n\t\tstationselect:
-        {\n\t\turl: \"//icons.wxug.com/scripts/wui-station-select/0.0.4/wui.ngstationselect.min.js\",\n\t\tpromise:
-        null,\n  done: function() {\n  var temp = angular.bootstrap(document, [\"wu_station_select\"]);\n
-        \ var count = 0;\n  var timeout = setInterval(function() {\n  count++;\n  if(count>10){\n
-        \ clearInterval(timeout);\n  }\n  else if (temp) {\n  angular.element('#station-select-button-ng').triggerHandler('click');\n
-        \ clearInterval(timeout);\n  }\n  }, 1000);\n  }\n\t\t},\n\t\t}\n\t};\n</script>\n<script>\n\twui.bootstrapped.scripts.wundermap.promise
-        = jQuery.Deferred().resolve();\n\twui.bootstrapped.scripts.googlemaps.promise
-        = jQuery.Deferred().resolve();\n</script>\n<script src=\"//cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation.min.js\"></script>\n<script
-        src=\"//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js\"></script>\n<script
-        src=\"//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.0/backbone-min.js\"></script>\n<script
-        src=\"//cdnjs.cloudflare.com/ajax/libs/flot/0.8.2/jquery.flot.min.js\"></script>\n<script
-        src=\"//cdnjs.cloudflare.com/ajax/libs/flot/0.8.2/jquery.flot.time.min.js\"></script>\n<script
-        src=\"//icons.wxug.com/scripts/backbone-nested/1.1.2/backbone-nested.min.js\"></script>\n<script
-        src=\"//icons.wxug.com/scripts/foundation/5.2.2-patch/foundation.equalizer.min.js\"></script>\n<script
-        src=\"//icons.wxug.com/scripts/responsive-tables.js?v=2\"></script>\n\t<script
-        src=\"//icons.wxug.com/scripts/pubnation.js\"></script>\n\t<script src=\"//icons.wxug.com/scripts/wui-whyads/advert.js?0.0.3\"></script>\n\t<script
-        src=\"//icons.wxug.com/scripts/wui-sitewide/2.2.0/wui.sitewide.min.js\"></script>\n\t<script
-        src=\"//icons.wxug.com/scripts/wui-backbone/1.6.5/wui.backbone.min.js\"></script>\n<script>\nwui.bootstrapped.prefs
-        = {\n\t'selected_pws': \"\",\n\t'CP_FCTTAB': null,\n\t'CP_VAR_dp': null,\n\t'CP_VAR_fl':
-        null,\n\t'CP_VAR_temp': null,\n\t'CP_VAR_cc': null,\n\t'CP_VAR_pop': null,\n\t'CP_VAR_h':
-        null,\n\t'CP_VAR_p': null,\n\t'CP_VAR_wspd': null,\n\t'CP_VAR_qpf': null,\n\t'CP_VAR_precip':
-        null,\n\t'EXPFCT': \"1\",\n\t'RADARBOX': null,\n\t'RADARBOX_WEBCAM': null,\n\t'GMAPTYPE':
-        '',\n\t'GMAPUNITS': '',\n\t'iconset': '',\n\t'LangCode': 'EN',\n\t'BrowserCode':
-        'en_US',\n\t'Units': 'english',\n\t'raw_string': '',\n  'fodqa' : false,\n\t'rapidfire':
-        '10'\n};\n</script>\n<script>\nwui.bootstrapped.ajax_favorites = true; //added
-        for wundermap favorites layer loading\nwui.bootstrapped.citylist = \"\";\n//wui.bootstrapped.citylist
-        = \"\";\n</script>\n<script>\nwui.bootstrapped.recents = [];\n</script>\n<script>\nwui.bootstrapped.popular=[\n\t{\n\turl:
-        \"///\",\n\t\"lat\": null,\n\t\"lon\": null,\n\t\"name\": \"New York, NY\",\n\t\"type\":
-        \"popular\",\n\t\"zmw\": \"10001.5.99999\"\n\t\t},\n\t{\n\turl: \"///\",\n\t\"lat\":
-        null,\n\t\"lon\": null,\n\t\"name\": \"London, UK\",\n\t\"type\": \"popular\",\n\t\"zmw\":
-        \"00000.1.03772\"\n\t\t},\n\t{\n\turl: \"///\",\n\t\"lat\": null,\n\t\"lon\":
-        null,\n\t\"name\": \"Chicago, IL\",\n\t\"type\": \"popular\",\n\t\"zmw\":
-        \"60290.1.99999\"\n\t\t},\n\t{\n\turl: \"///\",\n\t\"lat\": null,\n\t\"lon\":
-        null,\n\t\"name\": \"Boston, MA\",\n\t\"type\": \"popular\",\n\t\"zmw\": \"02101.1.99999\"\n\t\t},\n\t{\n\turl:
-        \"///\",\n\t\"lat\": null,\n\t\"lon\": null,\n\t\"name\": \"Houston, TX\",\n\t\"type\":
-        \"popular\",\n\t\"zmw\": \"77001.1.99999\"\n\t\t},\n\t{\n\turl: \"///\",\n\t\"lat\":
-        null,\n\t\"lon\": null,\n\t\"name\": \"San Francisco, CA\",\n\t\"type\": \"popular\",\n\t\"zmw\":
-        \"94101.1.99999\"\n\t\t},\n\t];\nif(!wui.bootstrapped.favorites) {\n\twui.bootstrapped.popularcities
-        = [\"10001.11.99999\",\"00000.1.03772\",\"60290.1.99999\",\"02108.1.99999\",\"77001.1.99999\",\"94102.1.99999\"];\n}\n</script>\n<script>\nwui.bootstrapped.ads
-        = {\n\tinterval: 300000,\n\tenableAdRefresh: 1,\n\tugc: false\n};\n</script>\n\t<script>\n\tvar
-        pwidget_config = {\n  copypaste: false,\n  shareQuote: false,\n\t\tdefaults:
-        {\n\t\tafterShare: false,\n  afterShareText: false,\n  shareAgain: false\n\t\t}\n
-        \ };\n</script>\n\t<script>\n\t\tif (sessionStorage.getItem(\"partner\") !==
-        null) {\n\t\tvar link_partner = sessionStorage.getItem('partner');\n\t\t}\n\t\telse
-        {\n\t\tvar link_partner = \"\";\n\t\t}\n\t window.Adomik = window.Adomik ||
-        {};\n\t Adomik.randomAdGroup = function() {\n\t var rand = Math.random();\n\t
-        switch (false) {\n\t case !(rand < 0.09): return \"ad_ex\" + (Math.floor(100
-        * rand));\n\t      case !(rand < 0.10): return \"ad_bc\";\n\t      default:
-        return \"ad_opt\";\n\t    }\n\t  };\n\t</script>\n\t\t<img src=\"//www.wunderground.com/tag.php?ViewTarget_1=0.5\"
-        style=\"display: none;\" />\n\t\t<script>\n\t\tvar crtg_nid=\"1458\";\n\t\tvar
-        crtg_cookiename=\"cto_wun\";\n\t\tvar crtg_varname=\"crtg_content\";\n\t\tfunction
-        crtg_getCookie(c_name){ var i,x,y,ARRCookies=document.cookie.split(\";\");for(i=0;i<ARRCookies.length;i++){x=ARRCookies[i].substr(0,ARRCookies[i].indexOf(\"=\"));y=ARRCookies[i].substr(ARRCookies[i].indexOf(\"=\")+1);x=x.replace(/^\\s+|\\s+$/g,\"\");if(x==c_name){return
-        unescape(y);}}return'';}\n\t\t\t\tvar crtg_content = crtg_getCookie(crtg_cookiename);var
-        crtg_rnd=Math.floor(Math.random()*99999999999);\n\t\t\t\tvar crtg_url=location.protocol+'//rtax.criteo.com/delivery/rta/rta.js?netId='+escape(crtg_nid);crtg_url+='&cookieName='+escape(crtg_cookiename);crtg_url+='&rnd='+crtg_rnd;crtg_url+='&varName='
-        + escape(crtg_varname);\n\t\t\t\tvar crtg_script=document.createElement('script');crtg_script.type='text/javascript';crtg_script.src=crtg_url;crtg_script.async=true;\n\t\t\t\tif(document.getElementsByTagName(\"head\").length>0)document.getElementsByTagName(\"head\")[0].appendChild(crtg_script);else
-        if(document.getElementsByTagName(\"body\").length>0)document.getElementsByTagName(\"body\")[0].appendChild(crtg_script);\n\t\t</script>\n\t\t<script
-        src=\"//c.amazon-adsystem.com/aax2/amzn_ads.js\"></script>\n\t\t<script>try{amznads.getAds('1004');}catch(e){}</script>\n\t<script
-        src=\"//tags.crwdcntrl.net/c/2216/cc.js?ns=_cc2216\" id=\"LOTCC_2216\"></script>\n<script>\n
-        \ if (window.innerWidth >= 1025) {\n\t\tvar ad_unit = \"web_wunderground_us\";\n\t\tvar
-        ad_plat = \"wund\";\n\t\tvar wfx_id = \"B1CC73\";\n\t}\n  else if (window.innerWidth
-        >= 768) {\n\t\tvar ad_unit = 'tablet_wunderground_us';\n\t\tvar ad_plat =
-        'wund_tab';\n\t\tvar wfx_id = \"B1CC73\";\n\t}\n\telse {\n\t\tvar adLimitMobile
-        = 5;\n\t\tvar ad_unit = \"mobile_smart_wunderground_us\";\n\t\tvar ad_plat
-        = \"wund_mw\";\n\t\tvar wfx_id = \"5B3739\";\n\t}\n\t\tvar criteo_array =
-        (window['crtg_content']) ? crtg_content.split(\"|\") : null;\n\t\tvar criteo_list
-        = [];\n\t\twindow.combined_hash = {};\n\t\tfor(var i in criteo_array){\n\t\tvar
-        kv = criteo_array[i].split(\"=\");\n\t\tif(kv[1] == 1) {\n\t\tcriteo_list.push(kv[0]);\n\t\t}\n\t\t}\n\t\twindow.combined_hash['cig']
-        = criteo_list.join(',');\n\t\tvar amz_keys = (window['amznads']) ? amznads.getKeys()
-        : null;\n\t\tif(amz_keys){\n\t\tvar amz_string = '';\n  for (var i = 0; i
-        < amz_keys.length; i++) {\n           if(i > 0) {\n  amz_string = amz_string
-        + \",\";\n  }\n  amz_string = amz_string + amz_keys[i];\n  }\n  window.combined_hash['amznslots']
-        = amz_string;\n\t\t}\n\t\tvar wundermap_layers = \"\";\n\t\tif(\"\" == \"on\")
-        {\n\t\twundermap_layers = \"trop\";\n\t\t}\n\tvar isEdge = navigator.userAgent.indexOf('Edge')
-        >=0;\n\tvar isOpera = !!window.opera || navigator.userAgent.indexOf(' OPR/')
-        >= 0;\n\tvar isFirefox = typeof InstallTrigger !== 'undefined';\n\tvar isSafari
-        = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor')
-        > 0;\n\tvar isChrome = !!window.chrome && !isOpera && !isEdge;\n\tvar isIE
-        = /*@cc_on!@*/false || !!document.documentMode;\n\tvar browser_type = null;\n\tif
-        (isFirefox) {\n\t\tbrowser_type = 'wuff';\n\t} else if (isSafari) {\n\t\tbrowser_type
-        = 'wusafari';\n\t} else if (isChrome) {\n\t\tbrowser_type = 'wuchrome'\n\t}
-        else if (isIE) {\n\t\tbrowser_type = 'wuie';\n\t} else if (isEdge) {\n\t\tbrowser_type
-        = 'wuedge';\n\t}\n\tvar ad_placements = [];\n\tvar adNum = 2;\n\tvar utag_data
-        = {\n\t\tad_placements : ad_placements,\n\t\tad_unit : \"/7646/\"+ad_unit+\"\",\n\t\tplatform
-        : ad_plat,\n\t\tpreempt : \"y\",\n\t\tsite : \"www\",\n\t\texclude : \"wund\",\n\t\tpage_view
-        : \"1\",\n\t\tpartner : link_partner,\n\t\tad_group : Adomik.randomAdGroup(),\n\t\tweather_fx
-        : \"\",\n\t\tweather_fx_zcs : \"\",\n\t\tweather_fx_nzcs : \"\",\n\t\tad_bidding
-        : combined_hash,\n\t\tpage_name : \"\",\n\t\tchannel : \"\",\n\t\tcontent_type
-        : \"error\",\n\t\tsub_section : \"\",\n\t\tevents : \"\",\n\t\tsearch_type
-        : \"other\",\n\t\tsearch_error : \"\",\n\t\tpage : \"Error\",\n\t\tcategory
-        : \"Error\",\n\t\tbrowser_type : browser_type,\n\t\tsharing : \"post\",\n\t\tdisplay_ads
-        : \"yes\",\n\t\tssl_page : \"no\",\n\t\tmember_pws : \"0\",\n\t\tmember_webcam
-        : \"0\",\n\t\tmember_translator : \"0\",\n\t\tmember_approver : \"0\",\n\t\tmember_zealot
-        : \"0\",\n\t\tmember_moderator : \"0\",\n\t\tmember_favorites : \"0\",\n\t\tad_blocker
-        : window.noAdBlocker ? \"no\" : \"yes\",\n\t\tmember_type : \"non-member\"\n\t}\n</script>\n\t\t<script>\n\t\t(function($)
-        {\n\t\tvar wfx_url = '//triggers1.wfxtriggers.com/json/?resp_type=json&acctid='
-        + wfx_id + '&current=true&df=1,2,3&zcs=&nzcs=';\n\t\t$.ajax({\n\t\turl: wfx_url,\n\t\tdataType:
-        'jsonp',\n\t\tcache: true,\n\t\ttype: 'GET',\n\t\ttimeout: 5000,\n\t\tsuccess:
-        function(data) {\n\t\tif (data && data.wfxtg) {\n\t\tvar types = ['zcs', 'hzcs',
-        'nzcs'];\n\t\tif (data.wfxtg.current) {\n\t\tutag_data.weather_fx = data.wfxtg.current.join(',');\n\t\t}\n\t\tif
-        (data.wfxtg.scatterSegs) {\n\t\tfor (var i = 0, len = data.wfxtg.scatterSegs.length;
-        i < len; i++) {\n\t\t\t\t\t\t\t\t\tvar seg = data.wfxtg.scatterSegs[i];\n\t\t\t\t\t\t\t\t\tvar
-        type;\n\t\t\t\t\t\t\t\t\tfor (var key in seg) {\n\t\t\t\t\t\t\t\t\t\tif (seg.hasOwnProperty(key))
-        {\n\t\t\t\t\t\t\t                type = key;\n\t\t\t\t\t\t\t            }\n\t\t\t\t\t\t\t\t\t}\n\t\n\t\t\t\t\t\t\t\t\tif
-        (type.length && seg[type].length && $.inArray(type, types) > -1) {\n\t\tvar
-        segments = seg[type][0].segments;\n\t\tif (segments && segments.length) {\n\t\tutag_data['weather_fx_'
-        + type] = segments.join(',');\n\t\t}\n\t\t}\n\t\t}\n\t\t}\n\t\t}\n\t\t},\n\t\terror:
-        function(){\n\t\tconsole.log('wfxtriggers failed');\n\t\t}\n\t\t});\n\t\tvar
-        url2 = '//ad.crwdcntrl.net/5/c=2215/pe=y/callback=?';\n\t\t$.ajax({\n\t\turl:
-        url2,\n\t\tdataType: 'jsonp',\n\t\tcache: true,\n\t\ttype: 'GET',\n\t\ttimeout:
-        5000,\n\t\tsuccess: function(data) {\n\t\tutag_data['lotame_audience'] = '';\n\t\tif(data
-        && data.Profile && data.Profile.Audiences && data.Profile.Audiences.Audience)
-        {\n\t\tfor(var i = 0; i < data.Profile.Audiences.Audience.length; i++) {\n\t\t\t\t\t\t\t\tif(i
-        > 0) {\n\t\tutag_data['lotame_audience'] = utag_data['lotame_audience'] +
-        ',';\n\t\t}\n\t\tutag_data['lotame_audience'] = utag_data['lotame_audience']
-        + data.Profile.Audiences.Audience[i].id;\n\t\t}\n\t\t}\n\t\tutag_data['tpid']
-        = data && data.Profile && data.Profile.tpid || '';\n\t\tif (window._cc2216)
-        {\n\t\tif(utag_data.dma) { _cc2216.add(\"seg\", \"dma_\" + utag_data.dma);
-        }\n\t\tif(utag_data.state) { _cc2216.add(\"seg\", \"state_\" + utag_data.state);
-        }\n\t\tif(utag_data.country_code) { _cc2216.add(\"seg\", \"country_\" + utag_data.country_code);
-        }\n\t\tif(utag_data.language) { _cc2216.add(\"seg\", \"lang_\" + utag_data.language);
-        }\n\t\tif(utag_data.temperature) { _cc2216.add(\"seg\", \"temp_\" + utag_data.temperature);
-        }\n\t\tif(utag_data.temperature_range) { _cc2216.add(\"seg\", \"tempR_\" +
-        utag_data.temperature_range); }\n\t\tif(utag_data.pollen) { _cc2216.add(\"seg\",
-        \"pollen_\" + utag_data.pollen); }\n\t\tif(utag_data.humidity) { _cc2216.add(\"seg\",
-        \"hum_\" + utag_data.humidity); }\n\t\tif(utag_data.condition) { _cc2216.add(\"seg\",
-        \"cond_\" + utag_data.condition); }\n\t\tif(utag_data.forecast_high_imcrement)
-        { _cc2216.add(\"seg\", \"tempH_\" + utag_data.forecast_high_imcrement); }\n\t\tif(utag_data.forecast_high_range)
-        { _cc2216.add(\"seg\", \"tempHR_\" + utag_data.forecast_high_range); }\n\t\tif(utag_data.forecast_low_increment)
-        { _cc2216.add(\"seg\", \"tempL_\" + utag_data.forecast_low_increment); }\n\t\tif(utag_data.forecast_low_range)
-        { _cc2216.add(\"seg\", \"tempLR_\" + utag_data.forecast_low_range); }\n\t\tif(utag_data.forecast_day_1)
-        { _cc2216.add(\"seg\", \"fc1_\" + utag_data.forecast_day_1); }\n\t\tif(utag_data.forecast_day_2)
-        { _cc2216.add(\"seg\", \"fc2_\" + utag_data.forecast_day_2); }\n\t\tif(utag_data.forecast_day_3)
-        { _cc2216.add(\"seg\", \"fc3_\" + utag_data.forecast_day_3); }\n\t\tif(utag_data.barometer)
-        { _cc2216.add(\"seg\", \"baroTendency_\" + utag_data.barometer); }\n\t\t_cc2216.bcp();\n\t\t}\n\t\t},\n\t\terror:
-        function(){\n\t\tconsole.log('lotame adcontrol failed');\n\t\t}\n\t\t});\n\t\t})(jQuery);\n\t\t</script>\n\t<script>\n\t\t(function(a,b,c,d){\n\t\ta='//tags.tiqcdn.com/utag/weather/wunderground/prod/utag.js';\n\t\tb=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;\n\t\ta=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);\n\t\t})();\n\t</script>\n\t\t<div
-        id=\"fb-root\"></div>\n\t<script>\n\t\twindow.fbAsyncInit = function() {\n\t\tFB.init({\n\t\tappId
-        : wui.facebook.app_id,\n\t\tchannelUrl : wui.facebook.channel_url,\n\t\tstatus
-        : true,\n\t\tcookie : true,\n\t\txfbml : true,\n\t\tversion : 'v2.0'\n\t\t});\n\t\twui.facebook.on_load_trigger();\n\t\t};\n\t\t(function(d){\n\t\tvar
-        js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];\n\t\tif
-        (d.getElementById(id)) {return;}\n\t\tjs = d.createElement('script'); js.id
-        = id; js.async = true;\n\t\tjs.src = \"//connect.facebook.net/en_US/sdk.js\";\n\t\tref.parentNode.insertBefore(js,
-        ref);\n\t\t}(document));\n\t</script>\n\t</body>\n</html>\n"
+      string: "\n{\n  \"response\": {\n  \"version\":\"0.1\",\n  \"termsofService\":\"http://www.wunderground.com/weather/api/d/terms.html\",\n
+        \ \"features\": {\n  \"forecast10day\": 1\n  }\n\t}\n\t\t,\n\t\"forecast\":{\n\t\t\"txt_forecast\":
+        {\n\t\t\"date\":\"11:56 AM MST\",\n\t\t\"forecastday\": [\n\t\t{\n\t\t\"period\":0,\n\t\t\"icon\":\"partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/partlycloudy.gif\",\n\t\t\"title\":\"Sunday\",\n\t\t\"fcttext\":\"Sunshine
+        and clouds mixed. High 63F. Winds SSW at 10 to 20 mph.\",\n\t\t\"fcttext_metric\":\"Sun
+        and clouds mixed. High 17C. Winds SSW at 15 to 30 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":1,\n\t\t\"icon\":\"nt_partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif\",\n\t\t\"title\":\"Sunday
+        Night\",\n\t\t\"fcttext\":\"Partly cloudy skies. Low 37F. Winds WSW at 10
+        to 15 mph.\",\n\t\t\"fcttext_metric\":\"Evening clouds will give way to clearing
+        overnight. Low 3C. Winds WSW at 15 to 25 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":2,\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"title\":\"Monday\",\n\t\t\"fcttext\":\"Sunny.
+        High 66F. Winds WSW at 5 to 10 mph.\",\n\t\t\"fcttext_metric\":\"Sunny skies.
+        High 19C. Winds WSW at 10 to 15 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":3,\n\t\t\"icon\":\"nt_clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_clear.gif\",\n\t\t\"title\":\"Monday
+        Night\",\n\t\t\"fcttext\":\"Clear skies. Low 42F. Winds SSW at 5 to 10 mph.\",\n\t\t\"fcttext_metric\":\"Clear
+        skies. Low around 5C. Winds SSW at 10 to 15 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":4,\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"title\":\"Tuesday\",\n\t\t\"fcttext\":\"A
+        mainly sunny sky. High 74F. Winds WSW at 10 to 15 mph.\",\n\t\t\"fcttext_metric\":\"A
+        mainly sunny sky. High 24C. Winds WSW at 15 to 25 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":5,\n\t\t\"icon\":\"nt_clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_clear.gif\",\n\t\t\"title\":\"Tuesday
+        Night\",\n\t\t\"fcttext\":\"Clear skies. Low 47F. Winds SW at 10 to 20 mph.\",\n\t\t\"fcttext_metric\":\"Clear
+        skies. Low 8C. Winds SW at 15 to 30 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":6,\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"title\":\"Wednesday\",\n\t\t\"fcttext\":\"Mainly
+        sunny. High 68F. Winds WSW at 15 to 25 mph.\",\n\t\t\"fcttext_metric\":\"Sunny
+        skies. High near 20C. Winds WSW at 25 to 40 km/h.\",\n\t\t\"pop\":\"0\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":7,\n\t\t\"icon\":\"nt_clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_clear.gif\",\n\t\t\"title\":\"Wednesday
+        Night\",\n\t\t\"fcttext\":\"Clear skies. Low around 35F. Winds NNW at 10 to
+        15 mph.\",\n\t\t\"fcttext_metric\":\"Clear. Low 2C. Winds NNW at 10 to 15
+        km/h.\",\n\t\t\"pop\":\"10\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":8,\n\t\t\"icon\":\"rain\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/rain.gif\",\n\t\t\"title\":\"Thursday\",\n\t\t\"fcttext\":\"Partly
+        cloudy skies during the morning hours will give way to cloudy skies and rain
+        in the afternoon. High 47F. Winds N at 10 to 20 mph. Chance of rain 70%.\",\n\t\t\"fcttext_metric\":\"Partly
+        cloudy skies during the morning hours will give way to cloudy skies and rain
+        in the afternoon. High 8C. Winds N at 15 to 30 km/h. Chance of rain 70%.\",\n\t\t\"pop\":\"70\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":9,\n\t\t\"icon\":\"nt_snow\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_snow.gif\",\n\t\t\"title\":\"Thursday
+        Night\",\n\t\t\"fcttext\":\"Snow in the evening will give way to partly cloudy
+        conditions overnight. Low around 25F. Winds N at 10 to 15 mph. Chance of snow
+        80%. Snowfall around one inch.\",\n\t\t\"fcttext_metric\":\"Snow in the evening
+        will give way to mostly cloudy conditions overnight. Low -4C. Winds N at 15
+        to 25 km/h. Chance of snow 80%. Snowfall of 2-3cm.\",\n\t\t\"pop\":\"80\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":10,\n\t\t\"icon\":\"partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/partlycloudy.gif\",\n\t\t\"title\":\"Friday\",\n\t\t\"fcttext\":\"Partly
+        cloudy skies. High around 40F. Winds ENE at 10 to 15 mph.\",\n\t\t\"fcttext_metric\":\"Partly
+        cloudy skies. High near 5C. Winds ENE at 15 to 25 km/h.\",\n\t\t\"pop\":\"10\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":11,\n\t\t\"icon\":\"nt_partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif\",\n\t\t\"title\":\"Friday
+        Night\",\n\t\t\"fcttext\":\"Partly cloudy. Low 22F. Winds SSE at 5 to 10 mph.\",\n\t\t\"fcttext_metric\":\"A
+        few clouds. Low -6C. Winds SE at 10 to 15 km/h.\",\n\t\t\"pop\":\"20\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":12,\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"title\":\"Saturday\",\n\t\t\"fcttext\":\"Generally
+        sunny despite a few afternoon clouds. High 46F. SSE winds shifting to ENE
+        at 10 to 15 mph.\",\n\t\t\"fcttext_metric\":\"Except for a few afternoon clouds,
+        mainly sunny. High 8C. Winds ESE at 15 to 25 km/h.\",\n\t\t\"pop\":\"10\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":13,\n\t\t\"icon\":\"nt_partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif\",\n\t\t\"title\":\"Saturday
+        Night\",\n\t\t\"fcttext\":\"A few clouds. Low 23F. Winds S at 5 to 10 mph.\",\n\t\t\"fcttext_metric\":\"Partly
+        cloudy. Low near -5C. Winds S at 10 to 15 km/h.\",\n\t\t\"pop\":\"10\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":14,\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"title\":\"Sunday\",\n\t\t\"fcttext\":\"Generally
+        sunny. High 49F. Winds ESE at 5 to 10 mph.\",\n\t\t\"fcttext_metric\":\"Plentiful
+        sunshine. High around 10C. Winds ESE at 10 to 15 km/h.\",\n\t\t\"pop\":\"20\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":15,\n\t\t\"icon\":\"nt_partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif\",\n\t\t\"title\":\"Sunday
+        Night\",\n\t\t\"fcttext\":\"A few clouds. Low 26F. Winds W at 5 to 10 mph.\",\n\t\t\"fcttext_metric\":\"A
+        few clouds. Low -4C. Winds W at 10 to 15 km/h.\",\n\t\t\"pop\":\"20\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":16,\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"title\":\"Monday\",\n\t\t\"fcttext\":\"Mostly
+        sunny skies. High 47F. Winds NW at 5 to 10 mph.\",\n\t\t\"fcttext_metric\":\"Mostly
+        sunny skies. High 8C. Winds NNW at 10 to 15 km/h.\",\n\t\t\"pop\":\"20\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":17,\n\t\t\"icon\":\"nt_chancesnow\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_chancesnow.gif\",\n\t\t\"title\":\"Monday
+        Night\",\n\t\t\"fcttext\":\"Snow showers before midnight. Becoming clear later.
+        Low around 25F. Winds W at 5 to 10 mph. Chance of snow 40%.\",\n\t\t\"fcttext_metric\":\"Scattered
+        snow flurries and snow showers possible before midnight. Becoming mostly clear
+        later. Low -4C. Winds W at 10 to 15 km/h. Chance of snow 40%.\",\n\t\t\"pop\":\"40\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":18,\n\t\t\"icon\":\"snow\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/snow.gif\",\n\t\t\"title\":\"Tuesday\",\n\t\t\"fcttext\":\"Partly
+        cloudy in the morning then becoming cloudy with a mix of light rain and snow
+        later in the day. High near 45F. Winds NNE at 5 to 10 mph. Chance of rain
+        40%.\",\n\t\t\"fcttext_metric\":\"Partly cloudy in the morning then becoming
+        cloudy with a mix of light rain and snow later in the day. High 7C. Winds
+        NNE at 10 to 15 km/h. Chance of rain 40%.\",\n\t\t\"pop\":\"40\"\n\t\t}\n\t\t,\n\t\t{\n\t\t\"period\":19,\n\t\t\"icon\":\"nt_snow\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/nt_snow.gif\",\n\t\t\"title\":\"Tuesday
+        Night\",\n\t\t\"fcttext\":\"Intermittent snow showers, especially early. Low
+        24F. Winds S at 5 to 10 mph. Chance of snow 40%. Snow accumulations less than
+        one inch.\",\n\t\t\"fcttext_metric\":\"Snow showers early becoming more scattered
+        later. Low -4C. Winds S at 10 to 15 km/h. Chance of snow 40%. Snow accumulations
+        less than 2cm.\",\n\t\t\"pop\":\"40\"\n\t\t}\n\t\t]\n\t\t},\n\t\t\"simpleforecast\":
+        {\n\t\t\"forecastday\": [\n\t\t{\"date\":{\n\t\"epoch\":\"1487556000\",\n\t\"pretty\":\"7:00
+        PM MST on February 19, 2017\",\n\t\"day\":19,\n\t\"month\":2,\n\t\"year\":2017,\n\t\"yday\":49,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"0\",\n\t\"monthname\":\"February\",\n\t\"monthname_short\":\"Feb\",\n\t\"weekday_short\":\"Sun\",\n\t\"weekday\":\"Sunday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MST\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":1,\n\t\t\"high\":
+        {\n\t\t\"fahrenheit\":\"63\",\n\t\t\"celsius\":\"17\"\n\t\t},\n\t\t\"low\":
+        {\n\t\t\"fahrenheit\":\"37\",\n\t\t\"celsius\":\"3\"\n\t\t},\n\t\t\"conditions\":\"Partly
+        Cloudy\",\n\t\t\"icon\":\"partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/partlycloudy.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":0,\n\t\t\"qpf_allday\":
+        {\n\t\t\"in\": 0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
+        0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.00,\n\t\t\"mm\":
+        0\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_day\":
+        {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
+        0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 20,\n\t\t\"kph\":
+        32,\n\t\t\"dir\": \"SSW\",\n\t\t\"degrees\": 197\n\t\t},\n\t\t\"avewind\":
+        {\n\t\t\"mph\": 14,\n\t\t\"kph\": 23,\n\t\t\"dir\": \"SSW\",\n\t\t\"degrees\":
+        197\n\t\t},\n\t\t\"avehumidity\": 23,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\":
+        0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1487642400\",\n\t\"pretty\":\"7:00
+        PM MST on February 20, 2017\",\n\t\"day\":20,\n\t\"month\":2,\n\t\"year\":2017,\n\t\"yday\":50,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"0\",\n\t\"monthname\":\"February\",\n\t\"monthname_short\":\"Feb\",\n\t\"weekday_short\":\"Mon\",\n\t\"weekday\":\"Monday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MST\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":2,\n\t\t\"high\":
+        {\n\t\t\"fahrenheit\":\"66\",\n\t\t\"celsius\":\"19\"\n\t\t},\n\t\t\"low\":
+        {\n\t\t\"fahrenheit\":\"42\",\n\t\t\"celsius\":\"6\"\n\t\t},\n\t\t\"conditions\":\"Clear\",\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":0,\n\t\t\"qpf_allday\":
+        {\n\t\t\"in\": 0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
+        0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.00,\n\t\t\"mm\":
+        0\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_day\":
+        {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
+        0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 10,\n\t\t\"kph\":
+        16,\n\t\t\"dir\": \"WSW\",\n\t\t\"degrees\": 239\n\t\t},\n\t\t\"avewind\":
+        {\n\t\t\"mph\": 9,\n\t\t\"kph\": 14,\n\t\t\"dir\": \"WSW\",\n\t\t\"degrees\":
+        239\n\t\t},\n\t\t\"avehumidity\": 20,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\":
+        0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1487728800\",\n\t\"pretty\":\"7:00
+        PM MST on February 21, 2017\",\n\t\"day\":21,\n\t\"month\":2,\n\t\"year\":2017,\n\t\"yday\":51,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"0\",\n\t\"monthname\":\"February\",\n\t\"monthname_short\":\"Feb\",\n\t\"weekday_short\":\"Tue\",\n\t\"weekday\":\"Tuesday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MST\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":3,\n\t\t\"high\":
+        {\n\t\t\"fahrenheit\":\"74\",\n\t\t\"celsius\":\"23\"\n\t\t},\n\t\t\"low\":
+        {\n\t\t\"fahrenheit\":\"47\",\n\t\t\"celsius\":\"8\"\n\t\t},\n\t\t\"conditions\":\"Clear\",\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":0,\n\t\t\"qpf_allday\":
+        {\n\t\t\"in\": 0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
+        0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.00,\n\t\t\"mm\":
+        0\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_day\":
+        {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
+        0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 15,\n\t\t\"kph\":
+        24,\n\t\t\"dir\": \"WSW\",\n\t\t\"degrees\": 241\n\t\t},\n\t\t\"avewind\":
+        {\n\t\t\"mph\": 12,\n\t\t\"kph\": 19,\n\t\t\"dir\": \"WSW\",\n\t\t\"degrees\":
+        241\n\t\t},\n\t\t\"avehumidity\": 19,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\":
+        0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1487815200\",\n\t\"pretty\":\"7:00
+        PM MST on February 22, 2017\",\n\t\"day\":22,\n\t\"month\":2,\n\t\"year\":2017,\n\t\"yday\":52,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"0\",\n\t\"monthname\":\"February\",\n\t\"monthname_short\":\"Feb\",\n\t\"weekday_short\":\"Wed\",\n\t\"weekday\":\"Wednesday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MST\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":4,\n\t\t\"high\":
+        {\n\t\t\"fahrenheit\":\"68\",\n\t\t\"celsius\":\"20\"\n\t\t},\n\t\t\"low\":
+        {\n\t\t\"fahrenheit\":\"35\",\n\t\t\"celsius\":\"2\"\n\t\t},\n\t\t\"conditions\":\"Clear\",\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":0,\n\t\t\"qpf_allday\":
+        {\n\t\t\"in\": 0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
+        0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.00,\n\t\t\"mm\":
+        0\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_day\":
+        {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
+        0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 25,\n\t\t\"kph\":
+        40,\n\t\t\"dir\": \"WSW\",\n\t\t\"degrees\": 239\n\t\t},\n\t\t\"avewind\":
+        {\n\t\t\"mph\": 19,\n\t\t\"kph\": 31,\n\t\t\"dir\": \"WSW\",\n\t\t\"degrees\":
+        239\n\t\t},\n\t\t\"avehumidity\": 19,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\":
+        0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1487901600\",\n\t\"pretty\":\"7:00
+        PM MST on February 23, 2017\",\n\t\"day\":23,\n\t\"month\":2,\n\t\"year\":2017,\n\t\"yday\":53,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"0\",\n\t\"monthname\":\"February\",\n\t\"monthname_short\":\"Feb\",\n\t\"weekday_short\":\"Thu\",\n\t\"weekday\":\"Thursday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MST\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":5,\n\t\t\"high\":
+        {\n\t\t\"fahrenheit\":\"47\",\n\t\t\"celsius\":\"8\"\n\t\t},\n\t\t\"low\":
+        {\n\t\t\"fahrenheit\":\"25\",\n\t\t\"celsius\":\"-4\"\n\t\t},\n\t\t\"conditions\":\"Rain\",\n\t\t\"icon\":\"rain\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/rain.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":70,\n\t\t\"qpf_allday\":
+        {\n\t\t\"in\": 0.18,\n\t\t\"mm\": 5\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
+        0.06,\n\t\t\"mm\": 2\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.11,\n\t\t\"mm\":
+        3\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.9,\n\t\t\"cm\": 2.3\n\t\t},\n\t\t\"snow_day\":
+        {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
+        0.9,\n\t\t\"cm\": 2.3\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 20,\n\t\t\"kph\":
+        32,\n\t\t\"dir\": \"N\",\n\t\t\"degrees\": 4\n\t\t},\n\t\t\"avewind\": {\n\t\t\"mph\":
+        13,\n\t\t\"kph\": 21,\n\t\t\"dir\": \"N\",\n\t\t\"degrees\": 4\n\t\t},\n\t\t\"avehumidity\":
+        43,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\": 0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1487988000\",\n\t\"pretty\":\"7:00
+        PM MST on February 24, 2017\",\n\t\"day\":24,\n\t\"month\":2,\n\t\"year\":2017,\n\t\"yday\":54,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"0\",\n\t\"monthname\":\"February\",\n\t\"monthname_short\":\"Feb\",\n\t\"weekday_short\":\"Fri\",\n\t\"weekday\":\"Friday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MST\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":6,\n\t\t\"high\":
+        {\n\t\t\"fahrenheit\":\"40\",\n\t\t\"celsius\":\"4\"\n\t\t},\n\t\t\"low\":
+        {\n\t\t\"fahrenheit\":\"22\",\n\t\t\"celsius\":\"-6\"\n\t\t},\n\t\t\"conditions\":\"Partly
+        Cloudy\",\n\t\t\"icon\":\"partlycloudy\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/partlycloudy.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":10,\n\t\t\"qpf_allday\":
+        {\n\t\t\"in\": 0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
+        0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.00,\n\t\t\"mm\":
+        0\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_day\":
+        {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
+        0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 15,\n\t\t\"kph\":
+        24,\n\t\t\"dir\": \"ENE\",\n\t\t\"degrees\": 66\n\t\t},\n\t\t\"avewind\":
+        {\n\t\t\"mph\": 11,\n\t\t\"kph\": 18,\n\t\t\"dir\": \"ENE\",\n\t\t\"degrees\":
+        66\n\t\t},\n\t\t\"avehumidity\": 42,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\":
+        0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1488074400\",\n\t\"pretty\":\"7:00
+        PM MST on February 25, 2017\",\n\t\"day\":25,\n\t\"month\":2,\n\t\"year\":2017,\n\t\"yday\":55,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"0\",\n\t\"monthname\":\"February\",\n\t\"monthname_short\":\"Feb\",\n\t\"weekday_short\":\"Sat\",\n\t\"weekday\":\"Saturday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MST\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":7,\n\t\t\"high\":
+        {\n\t\t\"fahrenheit\":\"46\",\n\t\t\"celsius\":\"8\"\n\t\t},\n\t\t\"low\":
+        {\n\t\t\"fahrenheit\":\"23\",\n\t\t\"celsius\":\"-5\"\n\t\t},\n\t\t\"conditions\":\"Clear\",\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":10,\n\t\t\"qpf_allday\":
+        {\n\t\t\"in\": 0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
+        0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.00,\n\t\t\"mm\":
+        0\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_day\":
+        {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
+        0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 15,\n\t\t\"kph\":
+        24,\n\t\t\"dir\": \"ESE\",\n\t\t\"degrees\": 105\n\t\t},\n\t\t\"avewind\":
+        {\n\t\t\"mph\": 11,\n\t\t\"kph\": 18,\n\t\t\"dir\": \"ESE\",\n\t\t\"degrees\":
+        105\n\t\t},\n\t\t\"avehumidity\": 33,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\":
+        0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1488160800\",\n\t\"pretty\":\"7:00
+        PM MST on February 26, 2017\",\n\t\"day\":26,\n\t\"month\":2,\n\t\"year\":2017,\n\t\"yday\":56,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"0\",\n\t\"monthname\":\"February\",\n\t\"monthname_short\":\"Feb\",\n\t\"weekday_short\":\"Sun\",\n\t\"weekday\":\"Sunday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MST\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":8,\n\t\t\"high\":
+        {\n\t\t\"fahrenheit\":\"49\",\n\t\t\"celsius\":\"9\"\n\t\t},\n\t\t\"low\":
+        {\n\t\t\"fahrenheit\":\"26\",\n\t\t\"celsius\":\"-3\"\n\t\t},\n\t\t\"conditions\":\"Clear\",\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":20,\n\t\t\"qpf_allday\":
+        {\n\t\t\"in\": 0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
+        0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.00,\n\t\t\"mm\":
+        0\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_day\":
+        {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
+        0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 10,\n\t\t\"kph\":
+        16,\n\t\t\"dir\": \"ESE\",\n\t\t\"degrees\": 106\n\t\t},\n\t\t\"avewind\":
+        {\n\t\t\"mph\": 9,\n\t\t\"kph\": 14,\n\t\t\"dir\": \"ESE\",\n\t\t\"degrees\":
+        106\n\t\t},\n\t\t\"avehumidity\": 33,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\":
+        0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1488247200\",\n\t\"pretty\":\"7:00
+        PM MST on February 27, 2017\",\n\t\"day\":27,\n\t\"month\":2,\n\t\"year\":2017,\n\t\"yday\":57,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"0\",\n\t\"monthname\":\"February\",\n\t\"monthname_short\":\"Feb\",\n\t\"weekday_short\":\"Mon\",\n\t\"weekday\":\"Monday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MST\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":9,\n\t\t\"high\":
+        {\n\t\t\"fahrenheit\":\"47\",\n\t\t\"celsius\":\"8\"\n\t\t},\n\t\t\"low\":
+        {\n\t\t\"fahrenheit\":\"25\",\n\t\t\"celsius\":\"-4\"\n\t\t},\n\t\t\"conditions\":\"Clear\",\n\t\t\"icon\":\"clear\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/clear.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":20,\n\t\t\"qpf_allday\":
+        {\n\t\t\"in\": 0.02,\n\t\t\"mm\": 1\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
+        0.00,\n\t\t\"mm\": 0\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.02,\n\t\t\"mm\":
+        1\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.2,\n\t\t\"cm\": 0.5\n\t\t},\n\t\t\"snow_day\":
+        {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
+        0.2,\n\t\t\"cm\": 0.5\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 10,\n\t\t\"kph\":
+        16,\n\t\t\"dir\": \"NW\",\n\t\t\"degrees\": 326\n\t\t},\n\t\t\"avewind\":
+        {\n\t\t\"mph\": 9,\n\t\t\"kph\": 14,\n\t\t\"dir\": \"NW\",\n\t\t\"degrees\":
+        326\n\t\t},\n\t\t\"avehumidity\": 42,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\":
+        0\n\t\t}\n\t\t,\n\t\t{\"date\":{\n\t\"epoch\":\"1488333600\",\n\t\"pretty\":\"7:00
+        PM MST on February 28, 2017\",\n\t\"day\":28,\n\t\"month\":2,\n\t\"year\":2017,\n\t\"yday\":58,\n\t\"hour\":19,\n\t\"min\":\"00\",\n\t\"sec\":0,\n\t\"isdst\":\"0\",\n\t\"monthname\":\"February\",\n\t\"monthname_short\":\"Feb\",\n\t\"weekday_short\":\"Tue\",\n\t\"weekday\":\"Tuesday\",\n\t\"ampm\":\"PM\",\n\t\"tz_short\":\"MST\",\n\t\"tz_long\":\"America/Denver\"\n},\n\t\t\"period\":10,\n\t\t\"high\":
+        {\n\t\t\"fahrenheit\":\"45\",\n\t\t\"celsius\":\"7\"\n\t\t},\n\t\t\"low\":
+        {\n\t\t\"fahrenheit\":\"24\",\n\t\t\"celsius\":\"-4\"\n\t\t},\n\t\t\"conditions\":\"Snow\",\n\t\t\"icon\":\"snow\",\n\t\t\"icon_url\":\"http://icons.wxug.com/i/c/k/snow.gif\",\n\t\t\"skyicon\":\"\",\n\t\t\"pop\":40,\n\t\t\"qpf_allday\":
+        {\n\t\t\"in\": 0.06,\n\t\t\"mm\": 2\n\t\t},\n\t\t\"qpf_day\": {\n\t\t\"in\":
+        0.02,\n\t\t\"mm\": 1\n\t\t},\n\t\t\"qpf_night\": {\n\t\t\"in\": 0.05,\n\t\t\"mm\":
+        1\n\t\t},\n\t\t\"snow_allday\": {\n\t\t\"in\": 0.5,\n\t\t\"cm\": 1.3\n\t\t},\n\t\t\"snow_day\":
+        {\n\t\t\"in\": 0.0,\n\t\t\"cm\": 0.0\n\t\t},\n\t\t\"snow_night\": {\n\t\t\"in\":
+        0.4,\n\t\t\"cm\": 1.0\n\t\t},\n\t\t\"maxwind\": {\n\t\t\"mph\": 10,\n\t\t\"kph\":
+        16,\n\t\t\"dir\": \"NNE\",\n\t\t\"degrees\": 18\n\t\t},\n\t\t\"avewind\":
+        {\n\t\t\"mph\": 9,\n\t\t\"kph\": 14,\n\t\t\"dir\": \"NNE\",\n\t\t\"degrees\":
+        18\n\t\t},\n\t\t\"avehumidity\": 42,\n\t\t\"maxhumidity\": 0,\n\t\t\"minhumidity\":
+        0\n\t\t}\n\t\t]\n\t\t}\n\t}\n}\n"
     http_version: 
-  recorded_at: Sun, 19 Feb 2017 20:09:19 GMT
+  recorded_at: Sun, 19 Feb 2017 20:18:10 GMT
 recorded_with: VCR 3.0.3

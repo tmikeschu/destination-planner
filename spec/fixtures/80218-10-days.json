@@ -1,0 +1,743 @@
+{
+  "key": [{
+      "date": {
+        "epoch": "1487556000",
+        "pretty": "7:00 PM MST on February 19, 2017",
+        "day": 19,
+        "month": 2,
+        "year": 2017,
+        "yday": 49,
+        "hour": 19,
+        "min": "00",
+        "sec": 0,
+        "isdst": "0",
+        "monthname": "February",
+        "monthname_short": "Feb",
+        "weekday_short": "Sun",
+        "weekday": "Sunday",
+        "ampm": "PM",
+        "tz_short": "MST",
+        "tz_long": "America/Denver"
+      },
+      "period": 1,
+      "high": {
+        "fahrenheit": "63",
+        "celsius": "17"
+      },
+      "low": {
+        "fahrenheit": "37",
+        "celsius": "3"
+      },
+      "conditions": "Partly Cloudy",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+      "skyicon": "",
+      "pop": 0,
+      "qpf_allday": {
+        "in": 0.00,
+        "mm": 0
+      },
+      "qpf_day": {
+        "in": 0.00,
+        "mm": 0
+      },
+      "qpf_night": {
+        "in": 0.00,
+        "mm": 0
+      },
+      "snow_allday": {
+        "in": 0.0,
+        "cm": 0.0
+      },
+      "snow_day": {
+        "in": 0.0,
+        "cm": 0.0
+      },
+      "snow_night": {
+        "in": 0.0,
+        "cm": 0.0
+      },
+      "maxwind": {
+        "mph": 20,
+        "kph": 32,
+        "dir": "SSW",
+        "degrees": 196
+      },
+      "avewind": {
+        "mph": 14,
+        "kph": 23,
+        "dir": "SSW",
+        "degrees": 196
+      },
+      "avehumidity": 24,
+      "maxhumidity": 0,
+      "minhumidity": 0
+    },
+    {
+      "date": {
+        "epoch": "1487642400",
+        "pretty": "7:00 PM MST on February 20, 2017",
+        "day": 20,
+        "month": 2,
+        "year": 2017,
+        "yday": 50,
+        "hour": 19,
+        "min": "00",
+        "sec": 0,
+        "isdst": "0",
+        "monthname": "February",
+        "monthname_short": "Feb",
+        "weekday_short": "Mon",
+        "weekday": "Monday",
+        "ampm": "PM",
+        "tz_short": "MST",
+        "tz_long": "America/Denver"
+      },
+      "period": 2,
+      "high": {
+        "fahrenheit": "66",
+        "celsius": "19"
+      },
+      "low": {
+        "fahrenheit": "42",
+        "celsius": "6"
+      },
+      "conditions": "Clear",
+      "icon": "clear",
+      "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+      "skyicon": "",
+      "pop": 0,
+      "qpf_allday": {
+        "in": 0.00,
+        "mm": 0
+      },
+      "qpf_day": {
+        "in": 0.00,
+        "mm": 0
+      },
+      "qpf_night": {
+        "in": 0.00,
+        "mm": 0
+      },
+      "snow_allday": {
+        "in": 0.0,
+        "cm": 0.0
+      },
+      "snow_day": {
+        "in": 0.0,
+        "cm": 0.0
+      },
+      "snow_night": {
+        "in": 0.0,
+        "cm": 0.0
+      },
+      "maxwind": {
+        "mph": 10,
+        "kph": 16,
+        "dir": "WSW",
+        "degrees": 241
+      },
+      "avewind": {
+        "mph": 9,
+        "kph": 14,
+        "dir": "WSW",
+        "degrees": 241
+      },
+      "avehumidity": 20,
+      "maxhumidity": 0,
+      "minhumidity": 0
+    },
+    {
+      "date": {
+        "epoch": "1487728800",
+        "pretty": "7:00 PM MST on February 21, 2017",
+        "day": 21,
+        "month": 2,
+        "year": 2017,
+        "yday": 51,
+        "hour": 19,
+        "min": "00",
+        "sec": 0,
+        "isdst": "0",
+        "monthname": "February",
+        "monthname_short": "Feb",
+        "weekday_short": "Tue",
+        "weekday": "Tuesday",
+        "ampm": "PM",
+        "tz_short": "MST",
+        "tz_long": "America/Denver"
+      },
+      "period": 3,
+      "high": {
+        "fahrenheit": "75",
+        "celsius": "24"
+      },
+      "low": {
+        "fahrenheit": "47",
+        "celsius": "8"
+      },
+      "conditions": "Clear",
+      "icon": "clear",
+      "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+      "skyicon": "",
+      "pop": 0,
+      "qpf_allday": {
+        "in": 0.00,
+        "mm": 0
+      },
+      "qpf_day": {
+        "in": 0.00,
+        "mm": 0
+      },
+      "qpf_night": {
+        "in": 0.00,
+        "mm": 0
+      },
+      "snow_allday": {
+        "in": 0.0,
+        "cm": 0.0
+      },
+      "snow_day": {
+        "in": 0.0,
+        "cm": 0.0
+      },
+      "snow_night": {
+        "in": 0.0,
+        "cm": 0.0
+      },
+      "maxwind": {
+        "mph": 15,
+        "kph": 24,
+        "dir": "WSW",
+        "degrees": 243
+      },
+      "avewind": {
+        "mph": 12,
+        "kph": 19,
+        "dir": "WSW",
+        "degrees": 243
+      },
+      "avehumidity": 19,
+      "maxhumidity": 0,
+      "minhumidity": 0
+    },
+    {
+      "date": {
+        "epoch": "1487815200",
+        "pretty": "7:00 PM MST on February 22, 2017",
+        "day": 22,
+        "month": 2,
+        "year": 2017,
+        "yday": 52,
+        "hour": 19,
+        "min": "00",
+        "sec": 0,
+        "isdst": "0",
+        "monthname": "February",
+        "monthname_short": "Feb",
+        "weekday_short": "Wed",
+        "weekday": "Wednesday",
+        "ampm": "PM",
+        "tz_short": "MST",
+        "tz_long": "America/Denver"
+      },
+      "period": 4,
+      "high": {
+        "fahrenheit": "69",
+        "celsius": "21"
+      },
+      "low": {
+        "fahrenheit": "35",
+        "celsius": "2"
+      },
+      "conditions": "Clear",
+      "icon": "clear",
+      "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+      "skyicon": "",
+      "pop": 0,
+      "qpf_allday": {
+        "in": 0.00,
+        "mm": 0
+      },
+      "qpf_day": {
+        "in": 0.00,
+        "mm": 0
+      },
+      "qpf_night": {
+        "in": 0.00,
+        "mm": 0
+      },
+      "snow_allday": {
+        "in": 0.0,
+        "cm": 0.0
+      },
+      "snow_day": {
+        "in": 0.0,
+        "cm": 0.0
+      },
+      "snow_night": {
+        "in": 0.0,
+        "cm": 0.0
+      },
+      "maxwind": {
+        "mph": 25,
+        "kph": 40,
+        "dir": "WSW",
+        "degrees": 239
+      },
+      "avewind": {
+        "mph": 18,
+        "kph": 29,
+        "dir": "WSW",
+        "degrees": 239
+      },
+      "avehumidity": 19,
+      "maxhumidity": 0,
+      "minhumidity": 0
+    },
+    {
+      "date": {
+        "epoch": "1487901600",
+        "pretty": "7:00 PM MST on February 23, 2017",
+        "day": 23,
+        "month": 2,
+        "year": 2017,
+        "yday": 53,
+        "hour": 19,
+        "min": "00",
+        "sec": 0,
+        "isdst": "0",
+        "monthname": "February",
+        "monthname_short": "Feb",
+        "weekday_short": "Thu",
+        "weekday": "Thursday",
+        "ampm": "PM",
+        "tz_short": "MST",
+        "tz_long": "America/Denver"
+      },
+      "period": 5,
+      "high": {
+        "fahrenheit": "47",
+        "celsius": "8"
+      },
+      "low": {
+        "fahrenheit": "25",
+        "celsius": "-4"
+      },
+      "conditions": "Rain",
+      "icon": "rain",
+      "icon_url": "http://icons.wxug.com/i/c/k/rain.gif",
+      "skyicon": "",
+      "pop": 70,
+      "qpf_allday": {
+        "in": 0.17,
+        "mm": 4
+      },
+      "qpf_day": {
+        "in": 0.06,
+        "mm": 2
+      },
+      "qpf_night": {
+        "in": 0.11,
+        "mm": 3
+      },
+      "snow_allday": {
+        "in": 0.9,
+        "cm": 2.3
+      },
+      "snow_day": {
+        "in": 0.0,
+        "cm": 0.0
+      },
+      "snow_night": {
+        "in": 0.9,
+        "cm": 2.3
+      },
+      "maxwind": {
+        "mph": 20,
+        "kph": 32,
+        "dir": "N",
+        "degrees": 4
+      },
+      "avewind": {
+        "mph": 13,
+        "kph": 21,
+        "dir": "N",
+        "degrees": 4
+      },
+      "avehumidity": 43,
+      "maxhumidity": 0,
+      "minhumidity": 0
+    },
+    {
+      "date": {
+        "epoch": "1487988000",
+        "pretty": "7:00 PM MST on February 24, 2017",
+        "day": 24,
+        "month": 2,
+        "year": 2017,
+        "yday": 54,
+        "hour": 19,
+        "min": "00",
+        "sec": 0,
+        "isdst": "0",
+        "monthname": "February",
+        "monthname_short": "Feb",
+        "weekday_short": "Fri",
+        "weekday": "Friday",
+        "ampm": "PM",
+        "tz_short": "MST",
+        "tz_long": "America/Denver"
+      },
+      "period": 6,
+      "high": {
+        "fahrenheit": "41",
+        "celsius": "5"
+      },
+      "low": {
+        "fahrenheit": "22",
+        "celsius": "-6"
+      },
+      "conditions": "Partly Cloudy",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+      "skyicon": "",
+      "pop": 10,
+      "qpf_allday": {
+        "in": 0.00,
+        "mm": 0
+      },
+      "qpf_day": {
+        "in": 0.00,
+        "mm": 0
+      },
+      "qpf_night": {
+        "in": 0.00,
+        "mm": 0
+      },
+      "snow_allday": {
+        "in": 0.0,
+        "cm": 0.0
+      },
+      "snow_day": {
+        "in": 0.0,
+        "cm": 0.0
+      },
+      "snow_night": {
+        "in": 0.0,
+        "cm": 0.0
+      },
+      "maxwind": {
+        "mph": 15,
+        "kph": 24,
+        "dir": "ENE",
+        "degrees": 66
+      },
+      "avewind": {
+        "mph": 11,
+        "kph": 18,
+        "dir": "ENE",
+        "degrees": 66
+      },
+      "avehumidity": 42,
+      "maxhumidity": 0,
+      "minhumidity": 0
+    },
+    {
+      "date": {
+        "epoch": "1488074400",
+        "pretty": "7:00 PM MST on February 25, 2017",
+        "day": 25,
+        "month": 2,
+        "year": 2017,
+        "yday": 55,
+        "hour": 19,
+        "min": "00",
+        "sec": 0,
+        "isdst": "0",
+        "monthname": "February",
+        "monthname_short": "Feb",
+        "weekday_short": "Sat",
+        "weekday": "Saturday",
+        "ampm": "PM",
+        "tz_short": "MST",
+        "tz_long": "America/Denver"
+      },
+      "period": 7,
+      "high": {
+        "fahrenheit": "46",
+        "celsius": "8"
+      },
+      "low": {
+        "fahrenheit": "23",
+        "celsius": "-5"
+      },
+      "conditions": "Clear",
+      "icon": "clear",
+      "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+      "skyicon": "",
+      "pop": 10,
+      "qpf_allday": {
+        "in": 0.00,
+        "mm": 0
+      },
+      "qpf_day": {
+        "in": 0.00,
+        "mm": 0
+      },
+      "qpf_night": {
+        "in": 0.00,
+        "mm": 0
+      },
+      "snow_allday": {
+        "in": 0.0,
+        "cm": 0.0
+      },
+      "snow_day": {
+        "in": 0.0,
+        "cm": 0.0
+      },
+      "snow_night": {
+        "in": 0.0,
+        "cm": 0.0
+      },
+      "maxwind": {
+        "mph": 15,
+        "kph": 24,
+        "dir": "ESE",
+        "degrees": 105
+      },
+      "avewind": {
+        "mph": 11,
+        "kph": 18,
+        "dir": "ESE",
+        "degrees": 105
+      },
+      "avehumidity": 33,
+      "maxhumidity": 0,
+      "minhumidity": 0
+    },
+    {
+      "date": {
+        "epoch": "1488160800",
+        "pretty": "7:00 PM MST on February 26, 2017",
+        "day": 26,
+        "month": 2,
+        "year": 2017,
+        "yday": 56,
+        "hour": 19,
+        "min": "00",
+        "sec": 0,
+        "isdst": "0",
+        "monthname": "February",
+        "monthname_short": "Feb",
+        "weekday_short": "Sun",
+        "weekday": "Sunday",
+        "ampm": "PM",
+        "tz_short": "MST",
+        "tz_long": "America/Denver"
+      },
+      "period": 8,
+      "high": {
+        "fahrenheit": "50",
+        "celsius": "10"
+      },
+      "low": {
+        "fahrenheit": "26",
+        "celsius": "-3"
+      },
+      "conditions": "Clear",
+      "icon": "clear",
+      "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+      "skyicon": "",
+      "pop": 20,
+      "qpf_allday": {
+        "in": 0.00,
+        "mm": 0
+      },
+      "qpf_day": {
+        "in": 0.00,
+        "mm": 0
+      },
+      "qpf_night": {
+        "in": 0.00,
+        "mm": 0
+      },
+      "snow_allday": {
+        "in": 0.0,
+        "cm": 0.0
+      },
+      "snow_day": {
+        "in": 0.0,
+        "cm": 0.0
+      },
+      "snow_night": {
+        "in": 0.0,
+        "cm": 0.0
+      },
+      "maxwind": {
+        "mph": 10,
+        "kph": 16,
+        "dir": "ESE",
+        "degrees": 106
+      },
+      "avewind": {
+        "mph": 9,
+        "kph": 14,
+        "dir": "ESE",
+        "degrees": 106
+      },
+      "avehumidity": 33,
+      "maxhumidity": 0,
+      "minhumidity": 0
+    },
+    {
+      "date": {
+        "epoch": "1488247200",
+        "pretty": "7:00 PM MST on February 27, 2017",
+        "day": 27,
+        "month": 2,
+        "year": 2017,
+        "yday": 57,
+        "hour": 19,
+        "min": "00",
+        "sec": 0,
+        "isdst": "0",
+        "monthname": "February",
+        "monthname_short": "Feb",
+        "weekday_short": "Mon",
+        "weekday": "Monday",
+        "ampm": "PM",
+        "tz_short": "MST",
+        "tz_long": "America/Denver"
+      },
+      "period": 9,
+      "high": {
+        "fahrenheit": "47",
+        "celsius": "8"
+      },
+      "low": {
+        "fahrenheit": "25",
+        "celsius": "-4"
+      },
+      "conditions": "Clear",
+      "icon": "clear",
+      "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+      "skyicon": "",
+      "pop": 20,
+      "qpf_allday": {
+        "in": 0.02,
+        "mm": 1
+      },
+      "qpf_day": {
+        "in": 0.00,
+        "mm": 0
+      },
+      "qpf_night": {
+        "in": 0.02,
+        "mm": 1
+      },
+      "snow_allday": {
+        "in": 0.2,
+        "cm": 0.5
+      },
+      "snow_day": {
+        "in": 0.0,
+        "cm": 0.0
+      },
+      "snow_night": {
+        "in": 0.2,
+        "cm": 0.5
+      },
+      "maxwind": {
+        "mph": 10,
+        "kph": 16,
+        "dir": "NNW",
+        "degrees": 327
+      },
+      "avewind": {
+        "mph": 9,
+        "kph": 14,
+        "dir": "NNW",
+        "degrees": 327
+      },
+      "avehumidity": 42,
+      "maxhumidity": 0,
+      "minhumidity": 0
+    },
+    {
+      "date": {
+        "epoch": "1488333600",
+        "pretty": "7:00 PM MST on February 28, 2017",
+        "day": 28,
+        "month": 2,
+        "year": 2017,
+        "yday": 58,
+        "hour": 19,
+        "min": "00",
+        "sec": 0,
+        "isdst": "0",
+        "monthname": "February",
+        "monthname_short": "Feb",
+        "weekday_short": "Tue",
+        "weekday": "Tuesday",
+        "ampm": "PM",
+        "tz_short": "MST",
+        "tz_long": "America/Denver"
+      },
+      "period": 10,
+      "high": {
+        "fahrenheit": "45",
+        "celsius": "7"
+      },
+      "low": {
+        "fahrenheit": "25",
+        "celsius": "-4"
+      },
+      "conditions": "Snow",
+      "icon": "snow",
+      "icon_url": "http://icons.wxug.com/i/c/k/snow.gif",
+      "skyicon": "",
+      "pop": 40,
+      "qpf_allday": {
+        "in": 0.06,
+        "mm": 2
+      },
+      "qpf_day": {
+        "in": 0.02,
+        "mm": 1
+      },
+      "qpf_night": {
+        "in": 0.05,
+        "mm": 1
+      },
+      "snow_allday": {
+        "in": 0.5,
+        "cm": 1.3
+      },
+      "snow_day": {
+        "in": 0.0,
+        "cm": 0.0
+      },
+      "snow_night": {
+        "in": 0.4,
+        "cm": 1.0
+      },
+      "maxwind": {
+        "mph": 10,
+        "kph": 16,
+        "dir": "NNE",
+        "degrees": 14
+      },
+      "avewind": {
+        "mph": 9,
+        "kph": 14,
+        "dir": "NNE",
+        "degrees": 14
+      },
+      "avehumidity": 42,
+      "maxhumidity": 0,
+      "minhumidity": 0
+    }
+  ]
+}
