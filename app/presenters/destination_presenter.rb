@@ -14,7 +14,7 @@ class DestinationPresenter
     new(destination)
   end
 
-  def forecast_days
+def forecast_10_day
     # DestinationService.get_forecast_by_zip(destination_zip)
     Forecast.for_zip(destination_zip)
   end

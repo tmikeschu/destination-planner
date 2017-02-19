@@ -12,14 +12,18 @@ RSpec.describe DestinationPresenter, type: :model do
         expect(presenter).to respond_to(:destination_zip)
         expect(presenter).to respond_to(:destination_description)
         expect(presenter).to respond_to(:destination_image_url)
-        expect(presenter).to respond_to(:forecast_days)
+        expect(presenter).to respond_to(:forecast_10_day)
       end
     end
 
-    describe "#forecast_days" do
+    describe "#forecast_10_day" do
       it "returns an array of 10 forecasts" do
+        # parent = presenter.class.ancestors[1]
         # expect(thing).to be_a(Destination::Array)
-
+        # byebug
+        day_count = presenter.forecast_10_day.count
+        expect(presenter.forecast_10_day).to be_a(Array)
+        expect(day_count).to eq 10
       end
     end
   end
