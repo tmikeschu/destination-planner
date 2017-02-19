@@ -19,7 +19,7 @@
 
   <div class="row">
     <h4>Forecast for <%= @presenter.destination_name %>:</h4>
-    <% @presenter.forecast_days %>
+    <% @presenter.forecast_days.each do |day| %>
   </div>
 
   <div class="row">
