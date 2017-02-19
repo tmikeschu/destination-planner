@@ -2,24 +2,24 @@
   <p id="notice"><%= notice %></p>
 
   <h3>
-    <%= @destination.name %>
+    <%= @presenter.destination_name %>
   </h3>
 
   <p>
     <strong>Zip:</strong>
-    <%= @destination.zip %>
+    <%= @presenter.destination_zip %>
   </p>
 
   <p>
     <strong>Description:</strong>
-    <%= @destination.description %>
+    <%= @presenter.destination_description %>
   </p>
 
-  <%= image_tag(@destination.image_url) %>
+  <%= image_tag(@presenter.destination_image_url) %>
 
   <div class="row">
-    <h4>Forecast for <%= @destination.name %>:</h4>
-    
+    <h4>Forecast for <%= @presenter.destination_name %>:</h4>
+    <% @presenter.forecast_days %>
   </div>
 
   <div class="row">

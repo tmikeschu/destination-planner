@@ -14,7 +14,13 @@ RSpec.describe do
   context "Visitor" do
     describe "visits a destination page" do
       scenario "and sees the forecast for that destination" do
-        Destination.create(name:"Miami", zip:"33018", )
+        destination = Destination.create(
+          name:"Miami",
+          zip:"33018",
+          description: "Warm & Sunny",
+          image_url: "google.com"
+        )
+
         visit root_path
         click_on destination.name
 
