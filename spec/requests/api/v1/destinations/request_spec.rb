@@ -22,13 +22,14 @@ RSpec.describe "Destinations API endpoints", type: :request do
   end
 
   it "create a destinations" do
-    params = { name:"Miami", zip:"80218", description: "Warm & Sunny", image_url: "google.com"}
+    params = { name:"Denver", zip:"80218", description: "Warm & Sunny", image_url: "google.com"}
     post api_v1_destinations_path, params: { destination: params }
 
     expect(response).to be_success
 
     destination = JSON.parse(response.body, symbolize_names: true)
 
+    expect(destination[:name]).to eq "Denver"
     expect(destination).to have_key(:name)
     expect(destination).to have_key(:zip)
     expect(destination).to have_key(:description)
@@ -41,15 +42,34 @@ RSpec.describe "Destinations API endpoints", type: :request do
     expect(response).to be_success
     destination = JSON.parse(response.body, symbolize_names: true)
 
-    expect(destination).to have_key(:name)
+    expect(destination[:name]).to eq @destination1.name
+    expect(destination[:zip]).to eq @destination1.zip
+    expect(destination[:description]).to eq @destination1.description
+    expect(destination[:image_url]).to eq @destination1.image_url
     expect(destination).to have_key(:zip)
     expect(destination).to have_key(:description)
     expect(destination).to have_key(:image_url)
   end
 
   it "updates a single destination" do
+    params = { name:"Denver", zip:"80218", description: "Warm & Sunny", image_url: "google.com"}
+    put api_v1_destination_path(@destination1), params: { destination: params }
+
+    expect(response).to be_success
+
+    destination = JSON.parse(response.body, symbolize_names: true)
+    @destination1.reload
+
+    expect(@destination1.name).to eq "Denver"
+    expect(destination[:name]).to eq "Denver"
   end
 
   it "deletes a destination" do
+    expect(Destination.count).to eq 3
+
+    delete api_v1_destination_path(@destination1)
+
+    expect(Destination.count).to eq 2
+    expect(response).to be_success
   end
 end
